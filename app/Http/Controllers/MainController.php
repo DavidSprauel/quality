@@ -20,7 +20,11 @@ class MainController extends Controller {
         $articles = Article::latest()->take(4)->get();
         
         $tweets = $this->getTweets();
-        $sponsor = Sponsor::get()->random(5);
+        $sponsor = Sponsor::all();
+        
+        if($sponsor->count() > 5) {
+            $sponsor = $sponsor->random(5);
+        }
         
         return view('main.home', compact('articles', 'tweets', 'sponsor'));
     }
