@@ -99,7 +99,7 @@ class MainController extends Controller {
         
         if (!is_null($this->token)) {
             $tweets = $this->formatTweets(Api::get('/1.1/search/tweets.json', [
-                'q'           => '#Dota2',
+                'q'           => '#EOQ2018',
                 'result_type' => 'recent',
                 'count'       => 10
             ], [
