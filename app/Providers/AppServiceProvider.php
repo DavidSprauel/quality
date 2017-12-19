@@ -20,6 +20,8 @@ class AppServiceProvider extends ServiceProvider
             $newUri = implode('/', $path);
             
             $view->with('currentUrl', $newUri);
+    
+            \Schema::defaultStringLength(191);
         });
     }
 
