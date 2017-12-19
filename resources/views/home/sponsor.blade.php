@@ -13,9 +13,9 @@
                 </a>
             </div>
         @empty
-            <p class="has-text-centered">
+            <div class="column has-text-centered">
                 {{ __('home.no_sponsor') }}
-            </p>
+            </div>
         @endforelse
     </div>
 </section>
