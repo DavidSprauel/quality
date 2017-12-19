@@ -18,7 +18,7 @@
 <h2 class="title is-2 title-perso">
     Silver
 </h2>
-<div class="columns section">
+<div class="columns">
     @if($sponsors->has('silver'))
         @forelse($sponsors->get('silver') as $sponsor)
             @component('sponsors.partials.silver_sponsors', ['sponsor' => $sponsor])
