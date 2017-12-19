@@ -12,5 +12,5 @@ return [
     'previous' => 'Précédent',
     'next' => 'Suivant',
     'no_news' => 'Aucune news n\'as été posté pour le moment.',
-    'no_sponsor' => 'Aucun sponsor \'as été défini.',
+    'no_sponsor' => 'Aucun sponsor n\'as été ajouté.',
 ];
