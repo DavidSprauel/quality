@@ -8,7 +8,7 @@
             @endcomponent
         </div>
     @empty
-        <p class="has-text-centerd">{{ __('home.no_sponsor') }}</p>
+        <p class="has-text-centered">{{ __('home.no_sponsor') }}</p>
     @endforelse
 @else
     <p class="has-text-centered">{{ __('home.no_sponsor') }}</p>
@@ -24,10 +24,10 @@
             @component('sponsors.partials.silver_sponsors', ['sponsor' => $sponsor])
             @endcomponent
         @empty
-            <p class="has-text-centerd">{{ __('home.no_sponsor') }}</p>
+            <p class="has-text-centered">{{ __('home.no_sponsor') }}</p>
         @endforelse
     @else
-        <p class="has-text-centered">{{ __('home.no_sponsor') }}</p>
+        <div class="has-text-centered column">{{ __('home.no_sponsor') }}</div>
     @endif
 </div>
 
@@ -41,9 +41,9 @@
             @component('sponsors.partials.bronze_sponsors', ['sponsor' => $sponsor])
             @endcomponent
         @empty
-            <p class="has-text-centerd">{{ __('home.no_sponsor') }}</p>
+            <p class="has-text-centered">{{ __('home.no_sponsor') }}</p>
         @endforelse
     @else
-        <p class="has-text-centered">{{ __('home.no_sponsor') }}</p>
+        <div class="has-text-centered column">{{ __('home.no_sponsor') }}</div>
     @endif
 </div>
