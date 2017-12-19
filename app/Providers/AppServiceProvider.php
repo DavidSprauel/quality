@@ -14,6 +14,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        Schema::defaultStringLength(191);
+        
         \View::composer('main.menu', function($view) {
             $path = explode('/', request()->path());
             unset($path[0]);
@@ -21,8 +23,6 @@ class AppServiceProvider extends ServiceProvider
             $newUri = implode('/', $path);
             
             $view->with('currentUrl', $newUri);
-    
-            Schema::defaultStringLength(191);
         });
     }
 
