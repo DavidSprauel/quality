@@ -26,7 +26,7 @@
                         <label class="label">Title</label>
                         <div class="control">
                             <input class="input {{ $errors->has('title') ? 'is-danger' : '' }}"
-                                   type="text" name="title" placeholder="Text input" value="{{ old('title') }}">
+                                   type="text" name="title" placeholder="Title in english" value="{{ old('title') }}">
                             @if($errors->has('title'))
                                 <span class="icon is-small is-right">
                                   <i class="fa fa-warning"></i>
@@ -44,7 +44,7 @@
                             <input class="input {{ $errors->has('title_fr') ? 'is-danger' : '' }}" type="text"
                                    name="title_fr"
                                    value="{{ old('title_fr') }}"
-                                   placeholder="Text input">
+                                   placeholder="Title in french">
                             @if($errors->has('title_fr'))
                                 <span class="icon is-small is-right">
                                   <i class="fa fa-warning"></i>
@@ -61,7 +61,7 @@
                         <div class="control">
                             <textarea class="textarea {{ $errors->has('body') ? 'is-danger' : '' }}"
                                       name="body"
-                                      placeholder="Textarea">{{ old('body') }}</textarea>
+                                      placeholder="Body in english">{{ old('body') }}</textarea>
                             @if($errors->has('body'))
                                 <span class="icon is-small is-right">
                                   <i class="fa fa-warning"></i>
@@ -78,7 +78,7 @@
                         <div class="control">
                             <textarea class="textarea {{ $errors->has('body_fr') ? 'is-danger' : '' }}"
                                       name="body_fr"
-                                      placeholder="Textarea">{{ old('body_fr') }}</textarea>
+                                      placeholder="Body in french">{{ old('body_fr') }}</textarea>
                             @if($errors->has('body_fr'))
                                 <span class="icon is-small is-right">
                                   <i class="fa fa-warning"></i>
