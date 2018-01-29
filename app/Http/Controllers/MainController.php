@@ -117,6 +117,7 @@ class MainController extends Controller {
             }
     
             return $tweets;
+            
         } catch (\Exception $e) {
             Log::error(json_encode($e->getMessage()));
             return collect();

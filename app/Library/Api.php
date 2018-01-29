@@ -33,6 +33,7 @@ abstract class Api {
         try {
             $client = new Client([
                 'base_uri' => env('TWITTER_API'),
+                'timeout'  => 2.0,
             ]);
             
             
