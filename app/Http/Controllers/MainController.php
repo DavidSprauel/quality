@@ -5,6 +5,7 @@ namespace Quality\Http\Controllers;
 use Carbon\Carbon;
 use GuzzleHttp\Psr7\Uri;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 use Quality\Article;
 use Quality\Library\Api;
@@ -90,31 +91,36 @@ class MainController extends Controller {
     }
     
     protected function getTweets() {
-        if (is_null($this->token)) {
-            $response = Api::twitterAuth();
-            if (is_object($response) && property_exists($response, 'access_token')) {
-                $this->token = $response->access_token;
+        try {
+            if (is_null($this->token)) {
+                $response = Api::twitterAuth();
+                if (is_object($response) && property_exists($response, 'access_token')) {
+                    $this->token = $response->access_token;
+                }
             }
-        }
+    
+            if (!is_null($this->token)) {
+                $tweets = $this->formatTweets(Api::get('/1.1/search/tweets.json', [
+                    'q'           => '#EOQ2018',
+                    'result_type' => 'recent',
+                    'count'       => 10
+                ], [
+                    'Authorization' => 'Bearer ' . $this->token
+                ]));
         
-        if (!is_null($this->token)) {
-            $tweets = $this->formatTweets(Api::get('/1.1/search/tweets.json', [
-                'q'           => '#EOQ2018',
-                'result_type' => 'recent',
-                'count'       => 10
-            ], [
-                'Authorization' => 'Bearer ' . $this->token
-            ]));
-            
-            if (is_object($tweets) && property_exists($tweets, 'errors')) {
-                return collet();
+                if (is_object($tweets) && property_exists($tweets, 'errors')) {
+                    return collet();
+                }
+        
+            } else {
+                $tweets = collect();
             }
-            
-        } else {
-            $tweets = collect();
+    
+            return $tweets;
+        } catch (\Exception $e) {
+            Log::error(json_encode($e->getMessage()));
+            return collect();
         }
-        
-        return $tweets;
     }
     
 }
