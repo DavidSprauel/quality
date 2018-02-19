@@ -1,7 +1,7 @@
 @extends('main.layout')
 
 @section('tab_title')
-    {{ __('speakers.tab') }}
+    {{ __('menu.registration') }}
 @endsection
 
 @section('content')
@@ -36,8 +36,8 @@
                 </div>
 
                 <div class="column">
-                    <a href="https://www.weezevent.com/congressafqpeoq2018?lg_billetterie=1&id_evenement=296489" target="_blank">
-                    https://www.weezevent.com/congressafqpeoq2018?lg_billetterie=1&id_evenement=296489
+                    <a  class="button is-info is-block" href="https://www.weezevent.com/congressafqpeoq2018?lg_billetterie=1&id_evenement=296489" target="_blank">
+                        Registration
                     </a>
                 </div>
             </div>

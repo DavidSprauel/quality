@@ -17,8 +17,17 @@
     </section>
     <section class="section">
         <div class="container">
+            <div class="section">
 
-            <div class="box">
+                <p style="margin-bottom: 15px;">
+                    From hotels to camping, Paris boasts a wide range of accommodation for all budgets and all tastes.
+                </p>
+
+                <a href="https://en.parisinfo.com/where-to-sleep-in-paris" target="_blank" style="margin-bottom: 15px; display: block">
+                    Where to sleep in Paris ?
+                </a>
+
+                <div class="box">
                 <article class="media">
                     <div class="media-left">
                         <figure class="image is-128x128">
@@ -50,33 +59,189 @@
                     </div>
                 </article>
             </div>
+            </div>
 
             <section class="section">
                 <div class="box">
                     <article class="media">
                         <div class="media-left">
                             <figure class="image is-128x128">
-                                <img src="{{ asset('images/acco.jpg') }}" alt="Image">
+                                <img src="{{ asset('images/hotels/hotel_1.png') }}" alt="Image">
                             </figure>
                         </div>
                         <div class="media-content">
                             <div class="content">
                                 <p>
                                     <strong>
-                                        Hotel #1
+                                        {{ __('accomodation.hotel_1_name') }}
                                     </strong>
                                     <br>
                                     <address>
-                                        Paris<br>
-                                        108 Boulevard Malesherbes<br>
-                                        75017 Paris<br>
+                                        {{ __('accomodation.hotel_1_address') }}<br>
+                                        {{ __('accomodation.hotel_1_zipcode') }}
+                                        {{ __('accomodation.hotel_1_city') }}<br>
                                         FRANCE<br>
                                     </address>
-                                <a class="button" style="float: right" href="#"
+
+                                    <small>{{ __('accomodation.hotel_1_price') }}</small>
+                                </p>
+
+                                <p>
+                                    {{ __('accomodation.hotel_1_desc') }}
+                                </p>
+
+                                <a class="button" style="float: right" href="http://www.pullmanhotels.com/fr/hotel-3013-pullman-paris-la-defense/index.shtml"
                                    target="_blank">
                                     {{ __('home.website') }}
                                 </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="box">
+                    <article class="media">
+                        <div class="media-left">
+                            <figure class="image is-128x128">
+                                <img src="https://media-cdn.tripadvisor.com/media/photo-s/01/d9/ba/5f/fiap-jean-monnet.jpg" alt="Image">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                    <strong>
+                                        {{ __('accomodation.hotel_2_name') }}
+                                    </strong>
+                                    <br>
+                                <address>
+                                    {{ __('accomodation.hotel_2_address') }}<br>
+                                    {{ __('accomodation.hotel_2_zipcode') }}
+                                    {{ __('accomodation.hotel_2_city') }}<br>
+                                    FRANCE<br>
+                                </address>
+
+                                <small>{{ __('accomodation.hotel_2_price') }}</small>
                                 </p>
+
+                                <p>
+                                    {{ __('accomodation.hotel_2_desc') }}
+                                </p>
+
+                                <a class="button" style="float: right" href="http://reservation.bookhostels.com/fiap.fr/?lang=en"
+                                   target="_blank">
+                                    {{ __('home.website') }}
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="box">
+                    <article class="media">
+                        <div class="media-left">
+                            <figure class="image is-128x128">
+                                <img src="{{ asset('images/hotels/hotel_3.png') }}" alt="Image">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                    <strong>
+                                        {{ __('accomodation.hotel_3_name') }}
+                                    </strong>
+                                    <br>
+                                <address>
+                                    {{ __('accomodation.hotel_3_address') }}<br>
+                                    {{ __('accomodation.hotel_3_zipcode') }}
+                                    {{ __('accomodation.hotel_3_city') }}<br>
+                                    FRANCE<br>
+                                </address>
+
+                                <small>{{ __('accomodation.hotel_3_price') }}</small>
+                                </p>
+
+                                <p>
+                                    {{ __('accomodation.hotel_3_desc') }}
+                                </p>
+
+                                <a class="button" style="float: right" href="http://www.marriott.com/hotels/travel/parld-renaissance-paris-la-defense-hotel/"
+                                   target="_blank">
+                                    {{ __('home.website') }}
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="box">
+                    <article class="media">
+                        <div class="media-left">
+                            <figure class="image is-128x128">
+                                <img src="{{ asset('images/hotels/hotel_4.png') }}" alt="Image">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                    <strong>
+                                        {{ __('accomodation.hotel_4_name') }}
+                                    </strong>
+                                    <br>
+                                <address>
+                                    {{ __('accomodation.hotel_4_address') }}<br>
+                                    {{ __('accomodation.hotel_4_zipcode') }}
+                                    {{ __('accomodation.hotel_4_city') }}<br>
+                                    FRANCE<br>
+                                </address>
+
+                                <small>{{ __('accomodation.hotel_4_price') }}</small>
+                                </p>
+
+                                <p>
+                                    {!! __('accomodation.hotel_4_desc')  !!}
+                                </p>
+
+                                <a class="button" style="float: right" href="https://www.hoteleiffelblomet.com/fr/"
+                                   target="_blank">
+                                    {{ __('home.website') }}
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="box">
+                    <article class="media">
+                        <div class="media-left">
+                            <figure class="image is-128x128">
+                                <img src="{{ asset('images/hotels/hotel_5.png') }}" alt="Image">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                    <strong>
+                                        {{ __('accomodation.hotel_5_name') }}
+                                    </strong>
+                                    <br>
+                                <address>
+                                    {{ __('accomodation.hotel_5_address') }}<br>
+                                    {{ __('accomodation.hotel_5_zipcode') }}
+                                    {{ __('accomodation.hotel_5_city') }}<br>
+                                    FRANCE<br>
+                                </address>
+
+                                <small>{{ __('accomodation.hotel_5_price') }}</small>
+                                </p>
+
+                                <p>
+                                    {!! __('accomodation.hotel_5_desc')  !!}
+                                </p>
+
+                                <a class="button" style="float: right" href="http://www.hotelampere.paris/"
+                                   target="_blank">
+                                    {{ __('home.website') }}
+                                </a>
                             </div>
                         </div>
                     </article>
