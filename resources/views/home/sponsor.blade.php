@@ -8,7 +8,7 @@
             <div class="column">
                 <a href="{{ $s->link }}" target="_blank" class="sponsors">
                     <figure class="image is-128x128">
-                        <img src="{{ $s->picture }}">
+                        <img src="{{ asset('images/sponsors/'.$s->picture) }}">
                     </figure>
                 </a>
             </div>

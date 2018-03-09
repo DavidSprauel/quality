@@ -4,7 +4,7 @@
             <div class="media">
                 <div class="media-left">
                     <figure class="image is-64x64">
-                        <img src="{{ $sponsor->picture }}" alt="Placeholder image">
+                        <img src="{{ asset('images/sponsors/'.$sponsor->picture) }}" alt="Placeholder image">
                     </figure>
                 </div>
                 <div class="media-content">

@@ -4,6 +4,7 @@ namespace Quality\Http\Controllers;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Log;
 use Intervention\Image\Facades\Image;
 use Quality\Article;
 
@@ -49,12 +50,14 @@ class ArticleController extends Controller
         if(!File::isDirectory(public_path('upload'))) {
             File::makeDirectory(public_path('upload'), 0775);
         }
+        
         $image = Image::make($image);
         $image = $image->widen(640, function ($constraint) {
             $constraint->upsize();
         });
         $image = $image->crop(640, 360);
         
+        Log::info(public_path('upload').'/'.$name);
         $image->save(public_path('upload').'/'.$name);
         
         

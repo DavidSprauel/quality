@@ -19,6 +19,7 @@ Route::get('/', function() {
 Route::prefix('{locale}')->group(function() {
     Route::get('/', 'MainController@getHome');
     Route::get('/home', 'MainController@getHome')->name('home');
+    Route::get('/infos', 'MainController@getInfos')->name('infos');
     
     Route::get('/program', 'MainController@getProgram')->name('program');
     

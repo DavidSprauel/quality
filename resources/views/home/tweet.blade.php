@@ -30,4 +30,8 @@
             <p>{{ __('home.no_tweet') }}</p>
         </div>
     @endforelse
+
+    <p class="has-text-justified" style="margin-top:15px;">
+        {!! __('home.text') !!}
+    </p>
 </div>

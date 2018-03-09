@@ -9,4 +9,5 @@ return [
     'sponsor' => 'Sponsors',
     'accomodation' => 'Accomodation',
     'contact' => 'Contact',
+    'infos' => 'Informations',
 ];

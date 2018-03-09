@@ -22,5 +22,9 @@
                 @endcomponent
             @endforeach
         </div>
+
+        <div class="has-text-centered">
+            {{ __('speakers.continued') }}
+        </div>
     </section>
 @endsection

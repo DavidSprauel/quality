@@ -2,5 +2,7 @@
 return [
     'tab' => 'Program',
     'day' => 'Day',
-    'room' => 'Room'
+    'room' => 'Day',
+    'button' => 'Call to conferences',
+    'download' => 'Download PDF version'
 ];
