@@ -21,5 +21,7 @@ Deux axes sont privilégiés pour cette édition : « La Qualité, atout de com
 ',
     'register' => 'Inscription en ligne',
     'sponsor_link' => asset('images/sponsor-fr.pdf'),
-    'sponsor_button_text' => 'Devenir sponsor'
+    'program_link' => asset('images/program_fr.pdf'),
+    'sponsor_button_text' => 'Devenir sponsor',
+    'slider_2' => 'Préparez votre séjour à Paris',
 ];

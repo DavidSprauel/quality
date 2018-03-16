@@ -38,14 +38,18 @@
                         <div class="content">
                             <p>
                                 <strong>
-                                    AFQP Quality Congress - 21-22 June, 2018 Paris/France
+                                    @if(session('lang') == 'en')
+                                        European Quality Congress - 21-22 June, 2018 Paris/France
+                                    @else
+                                        Congrès Européen de la Qualité - 21-22 Juin, 2018 Paris/France
+                                    @endif
                                 </strong><br>
                                 <em>
                                     <small>21/06/2018 - 09:00 to 22/06/2018 - 19:00</small>
                                 </em>
                                 <br>
                             <address>
-                                ENSAM<br>
+                                Arts et Métiers ParisTech<br>
                                 155 boulevard de l’hôpital<br>
                                 75013 Paris<br>
                                 FRANCE<br>

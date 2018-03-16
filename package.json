@@ -24,6 +24,7 @@
         "bulma-carousel": "^0.2.2",
         "compass-mixins": "^0.12.10",
         "font-awesome": "^4.7.0",
-        "jquery-countdown": "^2.2.0"
+        "jquery-countdown": "^2.2.0",
+        "npm": "^5.7.1"
     }
 }

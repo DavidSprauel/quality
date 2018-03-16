@@ -22,5 +22,7 @@ Two themes are favored for this edition: "Quality, competitiveness asset for Eur
 ',
     'register' => 'Registration',
     'sponsor_link' => asset('images/sponsor-english.pdf'),
-    'sponsor_button_text' => 'Become a sponsor'
+    'program_link' => asset('images/program_en.pdf'),
+    'sponsor_button_text' => 'Become a sponsor',
+    'slider_2' => 'Prepare your stay in Paris',
 ];

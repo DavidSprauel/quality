@@ -52,7 +52,7 @@
                         @if(session('lang') == 'en')
                             <div class="panel-heading">Gala Dinner</div>
                             <div class="panel-block">
-                                Chalet de la porte <br>
+                                Chalet de la porte jaune<br>
                                 Avenue de Nogent<br>
                                 75012 Paris<br>
                                 (Subway 1 : Station Château de Vincennes, and Bus 114 ou 210, station Porte Jaune)
@@ -63,7 +63,7 @@
                         @else
                             <div class="panel-heading">Diner de Gala</div>
                             <div class="panel-block">
-                                Chalet de la porte <br>
+                                Chalet de la porte jaune<br>
                                 Avenue de Nogent<br>
                                 75012 Paris<br>
                                 (Métro 1 : Station Château de Vincennes, puis Bus 114 ou 210, arrêt Porte Jaune)

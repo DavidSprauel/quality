@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('tab_title') - AFQP QUALITY CONGRESS 2018</title>
+    <title>@yield('tab_title') - European Quality Congress 2018</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -22,11 +22,11 @@
 
     <div style="height:130px; border-top: 1px solid rgba(0,0,0,0.1)">
         <div class="columns">
-            <div class="column">
+            <div class="column is-2 is-offset-4">
                 <a href="http://www.qualiteperformance.org" target="_blank">
                     <div style="
                             height:100px;
-                            width: 100px;
+                            width: 90px;
                             margin: 15px auto;
                             background: url({{ asset('images/logo_afqp.png')  }}) center center;
                             background-size: cover;
@@ -34,7 +34,7 @@
                     </div>
                 </a>
             </div>
-            <div class="column">
+            <div class="column is-2">
                 <a href="http://www.eoq.org/home.html " target="_blank">
                     <div style="
                             height:125px;

@@ -1,24 +1,24 @@
-<div class="column">
+<div class="column is-2 has-text-centered">
     <div class="card">
         <div class="card-content">
             <div class="media">
-                <div class="media-left">
-                    <figure class="image is-64x64">
-                        <img src="{{ asset('images/sponsors/'.$sponsor->picture) }}" alt="Placeholder image">
-                    </figure>
-                </div>
                 <div class="media-content">
-                    <p class="title is-4">
-                        <a href="{{ $sponsor->link }}" target="_blank">
-                            {{ $sponsor->name }}
-                        </a>
-                    </p>
+                    <figure class="image is-128x128" style="margin: auto;">
+                        <img src="{{ asset('images/sponsors/'.$sponsor->picture) }}" alt="Placeholder image">
+                        <figcaption>
+                            <p class="title has-text-centered">
+                                <a href="{{ $sponsor->link }}" target="_blank" style="color: black;">
+                                    {{ $sponsor->name }}
+                                </a>
+                            </p>
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
 
-            <div class="content">
-                {{ str_limit($sponsor->description, 150, '...') }}
-            </div>
+            {{--<div class="content">--}}
+                {{--{{ str_limit($sponsor->description, 150, '...') }}--}}
+            {{--</div>--}}
         </div>
     </div>
 </div>

@@ -20686,7 +20686,7 @@ input[type=range].slider.is-danger .has-output-tooltip + output {
   text-align: center;
 }
 
-#countdown img {
+#countdown .slide2 {
   -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
   -webkit-filter: blur(4px);

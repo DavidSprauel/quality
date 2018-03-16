@@ -77,15 +77,16 @@ $primary_lighter:  rgba($primary, 0.8);
     background-size:cover;
 }
 
+.slide2 {
+    transition: all 0.25s ease-in-out;
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+}
+
 #countdown {
     //background-image: url('/images/paris1.jpeg');
-    img {
-        transition: all 0.25s ease-in-out;
-        -webkit-filter: blur(4px);
-        -moz-filter: blur(4px);
-        -ms-filter: blur(4px);
-        filter: blur(4px);
-    }
     p {
         position: absolute;
         top: 50%;

@@ -3,7 +3,7 @@
         <div class='carousel-content carousel-animate carousel-animate-slide'>
             <div class='carousel-item' id="countdown">
                 <div>
-                    <img class="is-background" src="{{ asset('images/paris1.jpeg') }}">
+                    <img class="is-background" src="{{ asset('images/slide2.jpg') }}">
                     <p>Congress in <br>{{ __('home.countdown') }}</p>
                 </div>
                 <div class="title">
@@ -11,9 +11,11 @@
                 </div>
             </div>
             <div class='carousel-item'>
-                <img class="is-background"
-                     src="{{ asset('images/slide2.jpg') }}" />
-                <div class="title"></div>
+                <img class="is-background slide2"
+                     src="{{ asset('images/paris1.jpeg') }}" />
+                <div class="title">
+                    <a href="{{ route('accomodations', session('locale')) }}">{{ __('home.slider_2') }}</a>
+                </div>
             </div>
             {{--<div class='carousel-item'>--}}
                 {{--<img class="is-background" src="https://wikiki.github.io/images/sushi.jpg" alt="" width="640" height="310" />--}}

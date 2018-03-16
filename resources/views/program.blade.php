@@ -30,19 +30,19 @@
 
             <div id="day01" class="section tabsBlock">
                 <h1 class="title is-4 has-text-centered">Quality , competitiveness for Europa</h1>
-                @include('partials.day_one')
+                @include('partials.day_one_'.session('lang'))
             </div>
 
             <div id="day02" class="section tabsBlock">
                 <h1 class="title is-4 has-text-centered">Quality leader, a key role</h1>
-                @include('partials.day_two')
+                @include('partials.day_two_'.session('lang'))
             </div>
         </div>
 
         <div class="has-text-centered" style="margin-bottom: 15px;">
             <a class="button is-link"
                target="_blank"
-               href="{{ asset('images/Programme-20180213.pdf') }}">{{ __('program.download') }}</a>
+               href="{{ __('home.program_link') }}">{{ __('program.download') }}</a>
         </div>
         <div class="has-text-centered">
             <a class="button is-link" href="mailto:contact@francequalite.fr">{{ __('program.button') }}</a>
