@@ -15,7 +15,7 @@
                 </p>
             </section>
 
-            <section class="columns" style="border: 2px solid #333; height: 300px; margin-top: 20px;margin-bottom: 20px;">
+            <section class="columns" style="height: 300px; margin-top: 20px;margin-bottom: 20px; background: url({{ asset('images/home_'.session('lang').'.jpg') }}) no-repeat">
 
             </section>
 
