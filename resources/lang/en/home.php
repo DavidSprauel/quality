@@ -2,7 +2,7 @@
 
 return [
     'title'          => ' European Quality Congress 2018',
-    'countdown'      => 'AFQP QUALITY CONGRESS IN',
+    'countdown'      => 'European Quality Congress in',
     'visit'          => 'Let’s see the program',
     'feed'           => 'Twitter Feed',
     'read'           => ' <small><a href=":link">Read more</a></small>',

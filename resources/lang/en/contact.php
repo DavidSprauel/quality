@@ -14,5 +14,11 @@ return [
     'message_field_placeholder' => 'Enter your message...',
     'submit' => 'Send message',
     'thanks' => 'Thanks for your email',
-    'thanks_message' => 'Thanks for your email. Our team will take care of it as soon as possible.'
+    'thanks_message' => 'Thanks for your email. Our team will take care of it as soon as possible.',
+    'contact_details' => 'You can contact us:<br>
+        <ul>
+            <li>by phone: + 33 1 85 09 02 70</li>
+            <li>by email: qualitycongress2018@marevcom.fr</li>
+        </ul>
+    '
 ];

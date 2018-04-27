@@ -1,17 +1,10 @@
-<div class="column is-one-third">
-    <div class="card">
-        <div class="card-content">
-            <div class="media">
-                <div class="media-left">
-                    <figure class="image is-64x64">
-                        <img src="{{ asset('images/sponsors/'.$sponsor->picture) }}" alt="Placeholder image">
-                    </figure>
-                </div>
-                <div class="media-content">
-                    <p class="title is-4">{{ $sponsor->name }}</p>
-                </div>
-            </div>
+<div class="column has-text-centered">
+    <figure class="image is-128x128" style="margin: auto;">
+        <div style=" height: 100px;">
+            <a href="{{ $sponsor->link }}" target="_blank" style="color: black;">
+                <img src="{{ asset('images/sponsors/'.$sponsor->picture) }}" alt="Placeholder image">
+            </a>
         </div>
-    </div>
+    </figure>
 </div>
 

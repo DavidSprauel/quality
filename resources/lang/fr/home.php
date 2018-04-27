@@ -2,7 +2,7 @@
 
 return [
     'title'          => 'Congrès Européen de la Qualité 2018',
-    'countdown'      => 'AFQP QUALITY CONGRESS IN',
+    'countdown'      => 'Congrès Européen de la Qualité dans',
     'visit'          => 'Découvrez le programme',
     'feed'           => 'Flux Twitter',
     'read'           => ' <small><a href=":link">Lire la suite</a></small>',
