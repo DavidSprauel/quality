@@ -1,8 +1,9 @@
 <?php
 
 return [
-    'header_text' => '                    From hotels to camping, Paris boasts a wide range of accommodation for all budgets and all tastes.',
-    'link_top' => 'Where to sleep in Paris ?',
+    'header_text' => 'Hôtel ou camping, Paris propose un large choix d\'hebergement pour tout les budgets et tout les goûts',
+    'link_top' => 'Où dormir à Paris ?',
+    
     
     'hotel_1_name'    => 'Pullman Paris la défense',
     'hotel_1_address' => '11, avenue de l’Arche',
@@ -18,21 +19,21 @@ retail centre and from La Grande Arche.
 Only 10 minutes to the Champs-Élysées by métro, bus, tram or
 RER train, with stops just outside the hotel.
 For guests arriving by car, the hotel has its own private car park.',
-
+    
     'hotel_2_name'    => 'FIAP',
     'hotel_2_address' => '30 rue Cabanis',
     'hotel_2_zipcode' => ' 75014',
     'hotel_2_city'    => 'Paris',
     'hotel_2_price'   => 'Price from 90€',
     'hotel_2_desc'    => 'With a new charter adopted in 2002, the FIAP Jean Monnet reinforced its fundamental commitment of receiving young visitors from around the world. Offering exhibitions, concerts and meetings involving young visitors, the cultural program epitomizes the association\'s commitment. At the FIAP Jean Monnet people from all kinds are given the opportunity to organize seminars, congresses and meetings. A meeting place run by committed professionals and a board of voluntary administrators. The centre promotes all initiatives contributing to the creation of a global citizensh',
-
+    
     'hotel_3_name'    => 'Renaissance Paris La Defense Hotel',
     'hotel_3_address' => '60 Jardin de Valmy',
     'hotel_3_zipcode' => ' 92918',
     'hotel_3_city'    => 'Paris La Defense',
     'hotel_3_price'   => 'Price from 230€',
     'hotel_3_desc'    => 'Our newly renovated Renaissance Paris La Defense Hotel welcomes you with refined luxury, exceptional amenities and a convenient location. Whether you\'re in France\'s capital city for business or for a weekend away, you\'ll love our spacious, contemporary guest rooms and friendly service. We invite you to make yourself comfortable here in our recently refurbished accommodation, which features brand new high-speed Wi-Fi. Reserve a Club room or Suite to gain access to our new extended Club Lounge featuring an exclusive terrace.',
-
+    
     'hotel_4_name'    => 'Hôtel Eiffel Blomet',
     'hotel_4_address' => '78 Rue Blomet',
     'hotel_4_zipcode' => ' 75015',
@@ -43,8 +44,8 @@ For guests arriving by car, the hotel has its own private car park.',
 An emblem of the Art Deco style of the 1930s, the renovation of Hotel Eiffel Blomet was organised by a group of 7 dedicated hoteliers working with a team of talented architects. The hotel retains the great tradition of a Parisian hotel of its era; it’s as sumptuous as it is comfortable and welcoming, while still offering an outstanding level of refined and attentive service.<br><br>
 
 In addition to its stylish décor and exceptional level of service, guests of the Hotel Eiffel Blomet will enjoy its fabulous location. Nestled in the heart of the 15th arrondissement, it is less than 30 minutes on foot to the city’s most famous monument, the Eiffel Tower – it’s lacy iron-work dominates the city skyline. ',
-
-
+    
+    
     'hotel_5_name'    => 'Hôtel Ampère Paris',
     'hotel_5_address' => '102 Avenue de Villiers',
     'hotel_5_zipcode' => '75017',

@@ -20,11 +20,11 @@
             <div class="section">
 
                 <p style="margin-bottom: 15px;">
-                    From hotels to camping, Paris boasts a wide range of accommodation for all budgets and all tastes.
+                    {{ __('accomodation.header_text') }}
                 </p>
 
                 <a href="https://en.parisinfo.com/where-to-sleep-in-paris" target="_blank" style="margin-bottom: 15px; display: block">
-                    Where to sleep in Paris ?
+                    {{ __('accomodation.link_top') }}
                 </a>
 
                 <div class="box">
@@ -45,9 +45,9 @@
                                 </em>
                                 <br>
                             <address>
-                                Paris<br>
-                                108 Boulevard Malesherbes<br>
-                                75017 Paris<br>
+                                ENSAM<br>
+                                155 boulevard de l’hôpital<br>
+                                75013 Paris<br>
                                 FRANCE<br>
                             </address>
                             <a class="button" style="float: right" href="https://www.ratp.fr/plan-metro"

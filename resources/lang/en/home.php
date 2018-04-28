@@ -13,4 +13,6 @@ return [
     'next' => 'Next',
     'no_news' => 'No news has been posted yet',
     'no_sponsor' => 'No sponsor has been set up',
+    'sponsor_button_text' => 'Become sponsor',
+    'sponsor_link' => '/images/EOQ-2018-sponsor.pdf',
 ];

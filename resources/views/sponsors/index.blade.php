@@ -21,4 +21,12 @@
             @include('sponsors.partials.rank')
         </div>
     </section>
+
+    <section class="section">
+        <div class="container">
+            <a href="{{ __('home.sponsor_link') }}" target="_blank" class="button is-block is-info">
+                {{ __('home.sponsor_button_text') }}
+            </a>
+        </div>
+    </section>
 @endsection
