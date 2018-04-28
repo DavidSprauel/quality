@@ -1,12 +1,5 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="container">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="{{ route('home', session('lang')) }}">
-                <img src="{{ asset('images/afqp.jpg') }}" alt=""> &nbsp;
-                {{ __('home.title') }}
-            </a>
-        </div>
-
         <div class="navbar-menu">
             <div class="navbar-end">
                 <a class="navbar-item {{ request()->segment(1) == 'fr' ? 'is-active' : '' }}"
@@ -18,15 +11,15 @@
                     <img src="{{ asset('images/gb.svg') }}" alt="Francais" width="16">
                 </a>
 
-                <a class="navbar-item" href="">
+                <a class="navbar-item" href="https://twitter.com/QualitePerf" target="_blank">
                     <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
                 </a>
 
-                <a class="navbar-item" href="">
+                <a class="navbar-item" href="https://www.facebook.com/France-Qualité-469701040098995/" target="_blank">
                     <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
                 </a>
 
-                <a class="navbar-item" href="">
+                <a class="navbar-item" href="https://www.linkedin.com/in/france-qualité-afqp-78857378/" target="_blank">
                     <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
                 </a>
 
@@ -35,7 +28,20 @@
     </div>
 </nav>
 
+
 <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="{{ route('home', session('lang')) }}">
+                <img src="{{ asset('images/afqp.png') }}" alt="" style="height: 100px !important;max-height:100px;">
+                &nbsp;
+                {{ __('home.title') }}
+            </a>
+        </div>
+    </div>
+</nav>
+
+<nav class="navbar myNav" role="navigation" aria-label="main navigation">
     <div class="container">
         <div class="navbar-menu">
             <div class="navbar-end">
@@ -67,6 +73,12 @@
                    href="{{ route('accomodations', session('lang')) }}">
                     {{ __('menu.accomodation') }}
                 </a>
+
+                <a class="navbar-item {{ request()->is('*/infos*') ? 'is-active' : '' }}"
+                   href="{{ route('infos', session('lang')) }}">
+                    {{ __('menu.infos') }}
+                </a>
+
                 <a class="navbar-item {{ request()->is('*/contact') ? 'is-active' : '' }}"
                    href="{{ route('contact', session('lang')) }}">
                     {{ __('menu.contact') }}

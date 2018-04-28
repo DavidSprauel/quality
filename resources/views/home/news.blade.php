@@ -1,4 +1,4 @@
-<h1 class="title is-2 title-perso">
+<h1 class="title is-2 title-perso" style="color: #E2004A;">
     News
 </h1>
 <section class="section">

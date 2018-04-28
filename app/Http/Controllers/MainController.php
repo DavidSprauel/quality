@@ -21,13 +21,10 @@ class MainController extends Controller {
         $articles = Article::latest()->take(4)->get();
         
         $tweets = $this->getTweets();
-        $sponsor = Sponsor::all();
+        $sponsors = Sponsor::all();
+        $sponsors = $sponsors->groupBy('rank');
         
-        if($sponsor->count() > 5) {
-            $sponsor = $sponsor->random(5);
-        }
-        
-        return view('main.home', compact('articles', 'tweets', 'sponsor'));
+        return view('main.home', compact('articles', 'tweets', 'sponsors'));
     }
     
     public function getProgram() {
@@ -101,7 +98,7 @@ class MainController extends Controller {
     
             if (!is_null($this->token)) {
                 $tweets = $this->formatTweets(Api::get('/1.1/search/tweets.json', [
-                    'q'           => '#EOQ2018',
+                    'q'           => '#EQC2018',
                     'result_type' => 'recent',
                     'count'       => 10
                 ], [
@@ -122,6 +119,10 @@ class MainController extends Controller {
             Log::error(json_encode($e->getMessage()));
             return collect();
         }
+    }
+    
+    public function getInfos() {
+        return view('infos');
     }
     
 }

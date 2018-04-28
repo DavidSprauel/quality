@@ -9,14 +9,24 @@
 
     <section class="section">
         <div class="container">
-            <div class="columns">
-                <section class="is-two-thirds column">
-                    @include('home.news')
+            <section class="columns">
+                <p class="has-text-justified">
+                    {!! __('home.text') !!}
+                </p>
+            </section>
 
-                    @include('home.sponsor')
+            <section class="columns" style="height: 300px; margin-top: 20px;margin-bottom: 20px; background: url({{ asset('images/home_'.session('lang').'.jpg') }}) no-repeat center">
+
+            </section>
+
+            <div class="columns">
+                <section class="is-8 column">
+                    @include('home.news')
                 </section>
 
-                @include('home.tweet')
+                @include('home.sponsor')
+
+                {{--@include('home.tweet')--}}
             </div>
         </div>
     </section>

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'header_text' => '                    From hotels to camping, Paris boasts a wide range of accommodation for all budgets and all tastes.',
+    'header_text' => '                    Paris boasts a wide range of accommodation for all budgets and all tastes.',
     'link_top' => 'Where to sleep in Paris ?',
     
     'hotel_1_name'    => 'Pullman Paris la défense',
@@ -59,4 +59,37 @@ A haven of peace and tranquillity at the heart of the hustle and bustle of Paris
 The abundant, well-tended vegetation will make you forget all about the frenzy of city living overnight. Enjoy the view over the indoor garden and the terrace on a sunny day.<br><br>
 
 There can be nothing more exquisite than enjoying a relaxed breakfast on the terrace or continuing your summer evenings in the garden, enjoying a cocktail in a soothing, romantic setting. ',
+
+    'hotel_6_name'    => 'Hotel Ibis Avenue d\'Italie',
+    'hotel_6_address' => '15bis Avenue d\'Italie',
+    'hotel_6_zipcode' => '75013',
+    'hotel_6_city'    => 'Paris',
+    'hotel_6_price'   => '',
+    'hotel_6_desc'    => 'The ibis Paris Avenue d\'Italie 13ème hotel is located 6.2 miles (10 km) from Orly and 109 yards (100 m) from Place d\'Italie, where 3 metro lines connect you to the whole of Paris, from the Eiffel Tower to La Défense, and the Italie Deux shopping center is just a short walk from the hotel. We offer 111 rooms with air conditioning and free WIFI. You can also take advantage of preferential rates at the Club Med Gym, 22 yards (20 m) away.<br><br>
+
+Close to the Austerlitz, Montparnasse and Gare de Lyon train stations, the ibis Paris Avenue d\'Italie enjoys a privileged and easy-to-access location.',
+
+    'hotel_7_name'    => 'Mercure Place d’Italie 4*',
+    'hotel_7_address' => '25 Boulevard Auguste Blanqui',
+    'hotel_7_zipcode' => '75013',
+    'hotel_7_city'    => 'Paris',
+    'hotel_7_price'   => '',
+    'hotel_7_desc'    => 'Located in the heart of Paris, near the Butte aux Cailles district and the Latin Quarter, the Mercure Paris Place d\'Italie hotel offers customized services for your meetings. This hotel provides direct access by metro to Gare Montparnasse and Gare d\'Auste rlitz. It has comfortable rooms with views over the Panthéon and the Eiffel Tower. With family, friends or after a meeting, come and relax in our cozy bar, open 24 hours.<br><br>
+
+By choosing the Paris Place d\'Italie Hotel, you\'ll have the opportunity to stroll through Montparnasse, the Latin Quarter, the Chinese Quarter, and the Butte aux Cailles. You\'ll enjoy all the attractions of the capital.',
+
+    'hotel_8_name'    => 'Kyriad',
+    'hotel_8_address' => '5 Rue Véronèse',
+    'hotel_8_zipcode' => '75013',
+    'hotel_8_city'    => 'Paris',
+    'hotel_8_price'   => '',
+    'hotel_8_desc'    => 'Hotel Kyriad Paris 13 – Italie Gobelins is an excellent base from which to explore the charms of Parisian life, whether you\'re here for a business trip or as a tourist. <br><br>
+
+Located in central Paris, our 3-star hotel offers you all the comforts you need in a quiet and attractive neighborhood (restaurants and movie theatres nearby). <br><br>
+
+At about 100 yards from the Gobelins and Place d\'Italie metro stations (lines 5, 6 and 7), our modern hotel is 5 minutes from Rue Mouffetard and its many restaurants, the Jardin des Plantes and its famous museums (including the Grande Galerie and the Museum of Natural History), and about 160 yards from the Gobelins factory, the Arab World Institute, the Asian Quarter and the François Mitterrand Library. There is also a gym 5 minutes away on foot (Club Med gym, at Place d\'Italie). <br><br>
+
+The Gare d\'Austerlitz and Gare de Lyon train stations are not far, as well as the Butte-aux-Cailles neighborhood and the Pitié-Salpêtrière Hospital. A few metro stations away, you will find Notre-Dame Cathedral and the Panthéon. <br><br>
+
+Our teams at Hotel Kyriad Paris 13 – Italie Gobelins welcome you 24/7, in French or English. Board games are available for your children at the hotel, and we have an elevator. With all this comfort, you will never want to go home.',
 ];

@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('tab_title') - AFQP QUALITY CONGRESS 2018</title>
+    <title>@yield('tab_title') - European Quality Congress 2018</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -19,11 +19,41 @@
 
     @yield('content')
 
-    <footer class="footer">
+
+    <div style="height:130px; border-top: 1px solid rgba(0,0,0,0.1)">
+        <div class="columns">
+            <div class="column is-2 is-offset-4">
+                <a href="http://www.qualiteperformance.org" target="_blank">
+                    <div style="
+                            height:100px;
+                            width: 90px;
+                            margin: 15px auto;
+                            background: url({{ asset('images/logo_afqp.png')  }}) center center;
+                            background-size: cover;
+                            ">
+                    </div>
+                </a>
+            </div>
+            <div class="column is-2">
+                <a href="http://www.eoq.org/home.html " target="_blank">
+                    <div style="
+                            height:125px;
+                            width: 170px;
+                            margin: 0px auto;
+                            background: url({{ asset('images/logo_eoq.jpg') }}) center center;
+                            background-size: cover;
+                            ">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer" style="background: #4B4B4D;color:white;">
         <div class="container">
             <div class="content has-text-centered">
                 <p>
-                    © AFQP Association France Qualité Performance. All rights reserved
+                    {{ __('home.copyright') }}
                 </p>
                 @if(auth()->check())
                     <form action="{{ route('logout') }}" method="post">
@@ -33,7 +63,7 @@
                         </button>
                     </form>
                 @else
-                    <a class="is-small" href="{{ route('login') }}">Login</a>
+                    <a class="is-small" href="{{ route('login') }}" style="color:#E2004A">Login</a>
                 @endif
             </div>
         </div>

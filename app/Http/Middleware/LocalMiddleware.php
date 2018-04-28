@@ -2,6 +2,7 @@
 
 namespace Quality\Http\Middleware;
 
+use Carbon\Carbon;
 use Closure;
 
 class LocalMiddleware {
@@ -25,7 +26,7 @@ class LocalMiddleware {
         }
         
         app()->setLocale(session('lang'));
-        
+        Carbon::setLocale(session('lang'));
         
         return $next($request);
     }

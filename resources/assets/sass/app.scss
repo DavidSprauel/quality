@@ -57,6 +57,11 @@ $primary_lighter:  rgba($primary, 0.8);
     background-size:cover;
 }
 
+.program {
+    background: url('/images/programme.jpg') no-repeat center;
+    background-size:cover;
+}
+
 .sponsors-img {
     background: url('/images/sponsors.jpg') no-repeat center;
     background-size:cover;
@@ -72,15 +77,16 @@ $primary_lighter:  rgba($primary, 0.8);
     background-size:cover;
 }
 
+.slide2 {
+    transition: all 0.25s ease-in-out;
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+}
+
 #countdown {
     //background-image: url('/images/paris1.jpeg');
-    img {
-        transition: all 0.25s ease-in-out;
-        -webkit-filter: blur(4px);
-        -moz-filter: blur(4px);
-        -ms-filter: blur(4px);
-        filter: blur(4px);
-    }
     p {
         position: absolute;
         top: 50%;
@@ -121,4 +127,17 @@ $primary_lighter:  rgba($primary, 0.8);
     text-align: justify;
     text-justify: inter-word;
     @include hyphens(auto)
+}
+
+.myNav a:hover {
+    background: #E2004A !important;
+    color: white;
+}
+.myNav .is-active {
+    background: #E2004A !important;
+    color: white !important;
+}
+
+.is-link, .is-info {
+    background: #E2004A !important;
 }

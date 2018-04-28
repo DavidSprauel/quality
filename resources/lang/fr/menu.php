@@ -7,6 +7,7 @@ return [
     'speakers' => 'Intervenants',
     'registration' => 'Inscription',
     'sponsor' => 'Sponsors',
-    'accomodation' => 'Hebergement',
+    'accomodation' => 'Hébergement',
     'contact' => 'Contact',
+    'infos' => 'Infos Pratiques',
 ];

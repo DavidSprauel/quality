@@ -141,8 +141,11 @@
                 </div>
 
                 <div class="column">
-                    <a  class="button is-info is-block" href="https://www.weezevent.com/congressafqpeoq2018?lg_billetterie=1&id_evenement=296489" target="_blank">
-                        Registration
+                    <a  class="button is-info is-block is-large"
+                        href="https://www.weezevent.com/congressafqpeoq2018?lg_billetterie=1&id_evenement=296489"
+                        target="_blank"
+                    >
+                        {{__('home.register')}}
                     </a>
                 </div>
             </div>

@@ -15,6 +15,9 @@
             </div>
         </div>
     </section>
+    <section class="section container">
+        {!! __('contact.contact_details') !!}
+    </section>
 
     <section class="section container">
         <form action="/{{ session('lang') }}/contact" method="post">

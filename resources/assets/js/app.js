@@ -28,14 +28,14 @@ $(document).ready(() => {
 
     $('#countdown').find('p').countdown('2018/06/21 09:00', function (event) {
         if (window.lang == 'en') {
-            var $this = $(this).html('AFQP Quality Congress in <br>' + event.strftime(''
+            var $this = $(this).html('European Quality Congress in <br>' + event.strftime(''
                 + '<span>%w</span> weeks '
                 + '<span>%d</span> days '
                 + '<span>%H</span> hr '
                 + '<span>%M</span> min '
                 + '<span>%S</span> sec'));
         } else {
-            var $this = $(this).html('CONGRÈS AFQP QUALITY DANS <br>' + event.strftime(''
+            var $this = $(this).html('Congrès Européen de la Qualité dans <br>' + event.strftime(''
                 + '<span>%w</span> semaines '
                 + '<span>%d</span> jours '
                 + '<span>%H</span> hr '

@@ -23,8 +23,8 @@
     </section>
 
     <section class="section">
-        <div class="container">
-            <a href="{{ __('home.sponsor_link') }}" target="_blank" class="button is-block is-info">
+        <div class="container has-text-centered">
+            <a href="{{ __('home.sponsor_link') }}" target="_blank" class="button is-info">
                 {{ __('home.sponsor_button_text') }}
             </a>
         </div>

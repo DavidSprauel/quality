@@ -1,7 +1,7 @@
 <article class="media">
     <figure class="media-left">
-        <p class="image is-128">
-            <img src="{{$s->picture}}">
+        <p class="image is-128x128">
+            <img src="{{ asset('images/intervenants/'.$s->picture) }}">
         </p>
     </figure>
     <div class="media-content">

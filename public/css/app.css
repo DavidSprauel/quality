@@ -20660,6 +20660,11 @@ input[type=range].slider.is-danger .has-output-tooltip + output {
   background-size: cover;
 }
 
+.program {
+  background: url("/images/programme.jpg") no-repeat center;
+  background-size: cover;
+}
+
 .sponsors-img {
   background: url("/images/sponsors.jpg") no-repeat center;
   background-size: cover;
@@ -20681,7 +20686,7 @@ input[type=range].slider.is-danger .has-output-tooltip + output {
   text-align: center;
 }
 
-#countdown img {
+#countdown .slide2 {
   -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
   -webkit-filter: blur(4px);
@@ -20729,4 +20734,18 @@ input[type=range].slider.is-danger .has-output-tooltip + output {
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
       hyphens: auto;
+}
+
+.myNav a:hover {
+  background: #E2004A !important;
+  color: white;
+}
+
+.myNav .is-active {
+  background: #E2004A !important;
+  color: white !important;
+}
+
+.is-link, .is-info {
+  background: #E2004A !important;
 }

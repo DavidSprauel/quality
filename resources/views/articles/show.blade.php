@@ -24,7 +24,9 @@
                         {!! nl2br($article->body) !!}
                         <br><br>
                         <small>
-                            <time datetime="{{ $article->created_at->diffForHumans() }}">{{ $article->created_at->diffForHumans() }}</time>
+                            <time datetime="{{ $article->created_at->diffForHumans() }}">
+                                {{ $article->created_at->diffForHumans() }}
+                            </time>
                         </small>
 
                         @if(auth()->check())
