@@ -31,11 +31,13 @@
 
 <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="container">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="{{ route('home', session('lang')) }}">
+        <div class="navbar-brand" style="width: 100% !important; margin-left: 0!important">
+            <a class="navbar-item" href="{{ route('home', session('lang')) }}" style="width: 100% !important; padding-left: 0 !important;padding-right: 0 !important">
                 <img src="{{ asset('images/afqp.png') }}" alt="" style="height: 100px !important;max-height:100px;">
-                &nbsp;
-                {{ __('home.title') }}
+                <h1 class="title is-3" style="width: 100% !important">
+                    {{ __('home.title') }}
+                    <span style="display: block; float:right !important">#QualityEC</span>
+                </h1>
             </a>
         </div>
     </div>
@@ -69,7 +71,7 @@
                    href="{{ route('sponsors.index', session('lang')) }}">
                     {{ __('menu.sponsor') }}
                 </a>
-                <a class="navbar-item {{ request()->is('*/accomodations*') ? 'is-active' : '' }}"
+                <a class="navbar-item {{ request()->is('*/accomodations*') ? 'is-active' : '' }}" target="_blank"
                    href="{{ route('accomodations', session('lang')) }}">
                     {{ __('menu.accomodation') }}
                 </a>
