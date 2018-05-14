@@ -17,7 +17,7 @@ return [
     'text'           => 'The 62nd European Quality Congress is being held in France for the first time in 20 years.<br><br>
 It’s organized in Paris/France on 21-22 of June 2018 with the valuable support of the EOQ National Representative organization from France : <a href="www.qualiteperformance.org" target="_blank">France Qualité (AFQP)</a>.<br><br>
 It brings together several hundred leaders, representing the countries of geographical Europe - as well as, beyond, delegations from China, the United States, Quebec, etc.<br>
-hroughout the two days, come share and discover practices, prepare the sites of tomorrow, imagine the future of Quality.<br><br>
+Throughout the two days, come share and discover practices, prepare the sites of tomorrow, imagine the future of Quality.<br><br>
 Two themes are favored for this edition: "Quality, competitiveness asset for Europe" and "Quality Leader, a key role".
 ',
     'register' => 'Registration',

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Congrès Qualité Européen 2018 par AFQP',
+    'title' => 'Congrès Européen de la Qualité 2018 par AFQP',
     'countdown' => 'AFQP QUALITY CONGRESS IN',
     'visit' => 'Visiter le site web',
     'feed' => 'Flux Twitter',

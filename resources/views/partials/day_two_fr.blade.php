@@ -42,6 +42,11 @@
                     </ul>
                 </li>
             </ul>
+            <ul>
+                <li class="is-size-7">
+                    Intervenant : Wojciek Kowalik, Operations Director Eastern Europe Zone, L'Oréal
+                </li>
+            </ul>
         </td>
     </tr>
 
@@ -81,6 +86,16 @@
                                 - Le responsable qualité, véritable stratège<br>
                                 - Comment imaginez-vous le leader qualité en 2030 ?
                             </small>
+                            <ul>
+                                <li class="is-size-7">
+                                    Chairman : Georgios Christodoulou
+                                </li>
+                                <li class="is-size-7">
+                                    Intervenants : <br>Manon Duclos, Conseillère Qualité, Mouvement Québécois de la Qualité<br>
+
+                                    Georgios Christodoulou, Head Technical Customer Service, Larnaca Customer Services, Cyprus Telecommunications (Cyta)
+                                </li>
+                            </ul>
                         </li>
 
                         <li style="margin-bottom:10px;">

@@ -1,6 +1,6 @@
-<article class="media">
-    <figure class="media-left">
-        <p class="image is-128x128">
+<article class="media" style="padding-top: 50px;padding-bottom: 50px;">
+    <figure class="media-left" style="border-radius:1000px !important; overflow: hidden;">
+        <p class="image is-128x128" style=" min-height:128px !important;">
             <img src="{{ asset('images/intervenants/'.$s->picture) }}">
         </p>
     </figure>

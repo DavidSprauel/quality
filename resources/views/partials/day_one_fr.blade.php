@@ -20,7 +20,17 @@
                     <ul>
                         <li>La stratégie de l‘EOQ</li>
                         <li>La Qualité et l’Union Européenne</li>
-                        <li>La Qualité et les dirigeants</li>
+                        <li>
+                            La Qualité et les dirigeants
+                            <ul>
+                                <li class="is-size-7">
+                                    Intervenants : <br>
+                                    Torolf Paulshus, President, European Organization for Quality<br>
+                                    Pierre Gattaz – President, MEDEF <br>
+                                    Laurent Champaney – General Manager, ENSAM
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
             </ul>
@@ -39,6 +49,13 @@
                             <strong>Session 1:</strong><br>
                             Pratiques et expériences des Systèmes de Management de la Qualité<br>
                             <small>Quelle est votre expérience du SMQ et avec quels bénéfices ?</small>
+                            <ul>
+                                <li class="is-size-7">
+                                    Intervenant : Thomas Penner, Vice President Terminal + Passenger Services, Munich Airport -
+                                    <em>How to create a new staff involvement and motivated people on quality</em><br>
+                                    Li Yun, Nuclear Power Institute of China  - <em>The Matrix Suppliers Management of the Large Military Enterprise in the Civil-military Integration Environment</em>
+                                </li>
+                            </ul>
                         </li>
 
                         <li style="margin-bottom:10px;">
@@ -50,6 +67,13 @@
                                 - Quelles sont les pratiques concernant le Lean dans les sociétés de services ?<br>
                                 - Quel ROI du Lean Manufacturing dans l’industrie ?
                             </small>
+                            <ul>
+                                <li class="is-size-7">
+                                    Intervenant : <br>Mrs Kastorskaya, Dr Vadim Lapidus, Mrs Tyileneva – Russia<br>
+
+                                    Yujia Huo, Jianjun Zhu, Nuclear Power Institute of China  - Application and Discussion Of Visual Quality Control In Engineering Design Process
+                                </li>
+                            </ul>
                         </li>
 
                         <li style="margin-bottom:10px;">
@@ -61,6 +85,11 @@
                                 - Qu'est-ce qu'une approche de conformité ?<br>
                                 - Gestion des risques : quel est votre niveau de maturité ?
                             </small>
+                            <ul>
+                                <li class="is-size-7">
+                                    Intervenant : Nina Kandler-Schmitt : Supply Chain Quality Management - Andrássy Universität Budapest, Hungary  - Risk-oriented Supply Chain Quality Management
+                                </li>
+                            </ul>
                         </li>
 
                         <li style="margin-bottom:10px;">
@@ -70,11 +99,27 @@
                                 - Pratiques et expérience : le meilleur de la classe en matière de RSE<br>
                                 - Quelle stratégie pour une approche dynamique des parties prenantes?<br>
                             </small>
+                            <ul>
+                                <li class="is-size-7">
+                                    Intervenant : Eric Wolff, Directeur Qualité & EHS Groupe, L’Oréal
+                                </li>
+                            </ul>
                         </li>
 
                         <li style="margin-bottom:10px;">
                             <strong>Session 5:</strong><br>
                             Forum Qualité sino-européen<br>
+                            <ul>
+                                <li class="is-size-7">
+                                    Chairman : Morane Rey-Huet
+                                </li>
+                                <li class="is-size-7">
+                                    Intervenant : <br>Morane Rey-Huet, Founder & CEO at Meersens / Executive Vice President at Aldes (COMEX) - CEO International Division, Groupe ADLES - Quality an important asset of the brand<br>
+                                    Liu Qingyu, Hangzhou Robam Appliances Co., Ltd. - Customer-Oriented Operational Excellence Practice<br>
+
+                                    Ma Xingqing, Shandong Lingong Construction Machinery Co., Ltd - Practice on Implementing “ONE-TWO-THREE” Innovation Management
+                                </li>
+                            </ul>
                         </li>
 
                     </ul>
@@ -108,6 +153,13 @@
                                 - Quels résultats d’une démarche d‘excellence dans les hopitaux ?<br>
                                 - Comment démontrer la valeur ajoutée d'une démarche qualité?<br>
                             </small>
+                            <ul>
+                                <li class="is-size-7">
+                                    Intervenants : <br>Matthew Barsalou, Statistical Problem Resolution Master Black Belt, BorgWarner Turbo Systems Engineering GmbH <br>
+
+                                    Erick Perruche, Conseiller du Commerce Extérieur, Business Excellence Advisor
+                                </li>
+                            </ul>
                         </li>
 
                         <li style="margin-bottom:10px;">
@@ -126,6 +178,12 @@
                                 - Quel est le concept de My EOQ ?<br>
                                 - Catalogue des offres et services de l‘EOQ<br>
                             </small>
+                            <ul>
+                                <li class="is-size-7">
+                                    Intervenant :<br> Torolf Paulshus, President, European Organisation for Quality - What is the concept of My EOQ ? EOQ strategy, main actions and portfolio<br>
+                                    Thomas Votsmeir – Deutsche Gesellschaft für Qualität : EOQ engagement in conformity assessment, accreditation and personnel certification business
+                                </li>
+                            </ul>
                         </li>
 
                         <li style="margin-bottom:10px;">
@@ -137,11 +195,23 @@
                                 - Comment intégrer la digitalisation dans la gestion des processus métiers et quels sont les résultats associés ?<br>
                                 - Comment utiliser la digitalisation dans l'expérience client pour obtenir un « effet waouh » ?<br>
                             </small>
+                            <ul>
+                                <li class="is-size-7">
+                                    Intervenants : <br> Romain Denis, Vice President Regulatory Affairs and Quality Compliance US / EMEIA, Intuitive Surgical<br>
+                                    Ed Van Siclen, VP, Vault Platform Strategy & Business Development, Veeva Systems
+                            </ul>
                         </li>
 
                         <li style="margin-bottom:10px;">
                             <strong>Session 5:</strong><br>
                             Forum Qualité sino-européen<br>
+                            <ul>
+                                <li class="is-size-7">
+                                    Intervenant : <br>
+                                    Professeur Azat Abdrakhmanov, President at Kazakh Organization for Quality&Innovation Management - IAQMA Kazakhstan<br>
+                                    Liu Bin, Beijing Oriental Yuhong Waterproof Technology Co., Ltd - Building Global Oriental Yuhong with Quality and Brand
+                                </li>
+                            </ul>
                         </li>
 
                     </ul>

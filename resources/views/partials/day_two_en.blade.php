@@ -40,6 +40,11 @@
                             <small>What annoys you the most ? What do you like best ? What should be changed ?</small>
                         </li>
                     </ul>
+                    <ul>
+                        <li class="is-size-7">
+                            Speaker : Wojciek Kowalik, Operations Director Eastern Europe Zone, L'Oréal
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </td>
@@ -78,6 +83,16 @@
                                 - Quality manager as a strategist<br>
                                 - How do you imagine quality leader in 2030 ?
                             </small>
+                            <ul>
+                                <li class="is-size-7">
+                                    Chairman : Georgios Christodoulou
+                                </li>
+                                <li class="is-size-7">
+                                    Speakers : <br>Manon Duclos, Conseillère Qualité, Mouvement Québécois de la Qualité<br>
+
+                                    Georgios Christodoulou, Head Technical Customer Service, Larnaca Customer Services, Cyprus Telecommunications (Cyta)
+                                </li>
+                            </ul>
                         </li>
 
                         <li style="margin-bottom:10px;">
