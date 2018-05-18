@@ -19,6 +19,14 @@
             <ul class="menu-list">
                 <li>
                     <strong>Quality leader, a key role</strong>
+                    <ul>
+                        <li class="is-size-7">
+                            Pierre Girault, President - France Qualité
+                        </li>
+                        <li class="is-size-7">
+                            Patrick Mongillon, VP - France Qualité
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </td>
@@ -90,7 +98,10 @@
                                 <li class="is-size-7">
                                     Speakers : <br>Manon Duclos, Conseillère Qualité, Mouvement Québécois de la Qualité<br>
 
-                                    Georgios Christodoulou, Head Technical Customer Service, Larnaca Customer Services, Cyprus Telecommunications (Cyta)
+                                    Georgios Christodoulou, Head Technical Customer Service, Larnaca Customer Services, Cyprus Telecommunications (Cyta)<br>
+
+                                    Brian Galli, School of Computer Science, Innovation, and Management Engineering Long Island University
+
                                 </li>
                             </ul>
                         </li>
@@ -101,7 +112,16 @@
                             <small>
                                 - What changes in training programs are expected to improve the place of quality ?<br>
                                 - How to change training pedagogies concerning quality ?<br>
+                                - Is National Education a learning institution ?<br>
                             </small>
+                            <ul>
+                                <li class="is-size-7">
+                                    Chairman : Hervé Cosnard
+                                </li>
+                                <li class="is-size-7">
+                                    Speaker : Hervé Cosnard, Academic Director<br>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
@@ -121,7 +141,14 @@
 
     <tr>
         <td>14:45</td>
-        <td>European Quality Leader Award</td>
+        <td>
+            European Quality Leader Award
+            <ul>
+                <li class="is-size-7">
+                    Torolf Paulshus EOQ President and Dr Eric Janssens EOQ General Manager
+                </li>
+            </ul>
+        </td>
     </tr>
 
     <tr>
@@ -133,6 +160,11 @@
         <td>15:45</td>
         <td>
             Conclusion of the two days and link with EOQ
+            <ul>
+                <li class="is-size-7">
+                    Dr Eric Janssens EOQ General Manager
+                </li>
+            </ul>
         </td>
     </tr>
 

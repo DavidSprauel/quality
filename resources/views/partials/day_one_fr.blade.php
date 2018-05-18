@@ -53,7 +53,6 @@
                                 <li class="is-size-7">
                                     Intervenant : Thomas Penner, Vice President Terminal + Passenger Services, Munich Airport -
                                     <em>How to create a new staff involvement and motivated people on quality</em><br>
-                                    Li Yun, Nuclear Power Institute of China  - <em>The Matrix Suppliers Management of the Large Military Enterprise in the Civil-military Integration Environment</em>
                                 </li>
                             </ul>
                         </li>
@@ -69,7 +68,9 @@
                             </small>
                             <ul>
                                 <li class="is-size-7">
-                                    Intervenant : <br>Mrs Kastorskaya, Dr Vadim Lapidus, Mrs Tyileneva – Russia<br>
+                                    Intervenants : <br>
+                                    Frédéric Heinrich, Director of Operations, L’Oréal<br>
+                                    Mrs Kastorskaya, Dr Vadim Lapidus, Mrs Tyileneva – Russia<br>
 
                                     Yujia Huo, Jianjun Zhu, Nuclear Power Institute of China  - Application and Discussion Of Visual Quality Control In Engineering Design Process
                                 </li>
@@ -87,7 +88,8 @@
                             </small>
                             <ul>
                                 <li class="is-size-7">
-                                    Intervenant : Nina Kandler-Schmitt : Supply Chain Quality Management - Andrássy Universität Budapest, Hungary  - Risk-oriented Supply Chain Quality Management
+                                    Intervenants : Nina Kandler-Schmitt : Supply Chain Quality Management - Andrássy Universität Budapest, Hungary  - Risk-oriented Supply Chain Quality Management<br>
+                                    Yuan Pan : Research on Zero Defect Management Method of Design Quality for CF Fuel Assembly - Nuclear Power Institute of China
                                 </li>
                             </ul>
                         </li>
@@ -114,7 +116,7 @@
                                     Chairman : Morane Rey-Huet
                                 </li>
                                 <li class="is-size-7">
-                                    Intervenant : <br>Morane Rey-Huet, Founder & CEO at Meersens / Executive Vice President at Aldes (COMEX) - CEO International Division, Groupe ADLES - Quality an important asset of the brand<br>
+                                    Intervenant : <br>Morane Rey-Huet, Founder & CEO at Meersens / Executive Vice President at Aldes (COMEX) - CEO International Division, Groupe ALDES - Quality an important asset of the brand<br>
                                     Liu Qingyu, Hangzhou Robam Appliances Co., Ltd. - Customer-Oriented Operational Excellence Practice<br>
 
                                     Ma Xingqing, Shandong Lingong Construction Machinery Co., Ltd - Practice on Implementing “ONE-TWO-THREE” Innovation Management
@@ -180,7 +182,7 @@
                             </small>
                             <ul>
                                 <li class="is-size-7">
-                                    Intervenant :<br> Torolf Paulshus, President, European Organisation for Quality - What is the concept of My EOQ ? EOQ strategy, main actions and portfolio<br>
+                                    Intervenants :<br> Torolf Paulshus, President, European Organisation for Quality - What is the concept of My EOQ ? EOQ strategy, main actions and portfolio<br>
                                     Thomas Votsmeir – Deutsche Gesellschaft für Qualität : EOQ engagement in conformity assessment, accreditation and personnel certification business
                                 </li>
                             </ul>
@@ -198,7 +200,7 @@
                             <ul>
                                 <li class="is-size-7">
                                     Intervenants : <br> Romain Denis, Vice President Regulatory Affairs and Quality Compliance US / EMEIA, Intuitive Surgical<br>
-                                    Ed Van Siclen, VP, Vault Platform Strategy & Business Development, Veeva Systems
+                                    Ed Van Siclen, VP of Strategy, Veeva CPG & Chemicals.
                             </ul>
                         </li>
 
