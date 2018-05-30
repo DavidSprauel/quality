@@ -52,7 +52,7 @@ class MainController extends Controller {
     }
     
     public function getSpeakers() {
-        $speakers = Speaker::all();
+        $speakers = Speaker::orderBy('name')->get();
         
         return view('speakers', compact('speakers'));
     }

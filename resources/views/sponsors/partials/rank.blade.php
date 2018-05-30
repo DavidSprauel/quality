@@ -2,16 +2,12 @@
     Gold
 </h1>
 @if($sponsors->has('gold'))
-    @forelse($sponsors->get('gold') as $sponsor)
+    @foreach($sponsors->get('gold') as $sponsor)
         <div class="columns">
             @component('sponsors.partials.gold_sponsors', ['sponsor' => $sponsor])
             @endcomponent
         </div>
-    @empty
-        <p class="has-text-centered">{{ __('home.no_sponsor') }}</p>
-    @endforelse
-@else
-    <p class="has-text-centered">{{ __('home.no_sponsor') }}</p>
+    @endforeach
 @endif
 
 
@@ -20,14 +16,10 @@
 </h2>
 <div class="columns">
     @if($sponsors->has('silver'))
-        @forelse($sponsors->get('silver') as $sponsor)
+        @foreach($sponsors->get('silver') as $sponsor)
             @component('sponsors.partials.silver_sponsors', ['sponsor' => $sponsor])
             @endcomponent
-        @empty
-            <p class="has-text-centered">{{ __('home.no_sponsor') }}</p>
-        @endforelse
-    @else
-        <div class="has-text-centered column">{{ __('home.no_sponsor') }}</div>
+        @endforeach
     @endif
 </div>
 
@@ -37,13 +29,9 @@
 </h1>
 <div class="columns">
     @if($sponsors->has('bronze'))
-        @forelse($sponsors->get('bronze') as $sponsor)
+        @foreach($sponsors->get('bronze') as $sponsor)
             @component('sponsors.partials.bronze_sponsors', ['sponsor' => $sponsor])
             @endcomponent
-        @empty
-            <p class="has-text-centered">{{ __('home.no_sponsor') }}</p>
-        @endforelse
-    @else
-        <div class="has-text-centered column">{{ __('home.no_sponsor') }}</div>
+        @endforeach
     @endif
 </div>
