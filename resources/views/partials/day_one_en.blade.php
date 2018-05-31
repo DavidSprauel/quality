@@ -1,9 +1,9 @@
 <table class="table is-bordered" style="margin:auto">
     <thead>
-        <tr>
-            <th></th>
-            <th>{{ __('program.room') }} 1: Quality as an asset for a competitive Europe</th>
-        </tr>
+    <tr>
+        <th></th>
+        <th>{{ __('program.room') }} 1: Quality as an asset for a competitive Europe</th>
+    </tr>
     </thead>
     <tbody>
     <tr>
@@ -18,35 +18,30 @@
                 <li>
                     <strong>Opening session</strong>
                     <ul>
-                        <li>EOQ Strategy</li>
-                        <li>Quality and European Union</li>
-                        <li>
-                            Quality by leaders
+                        <li class="is-size-7">
+                            Speakers : <br>
+                            Laurent Champaney – General Manager, ENSAM<br>
                             <ul>
-                                <li class="is-size-7">
-                                    Speakers : <br>
-                                    Laurent Champaney – General Manager, ENSAM<br>
-                                    <ul>
-                                        <li class="is-size-8">
-                                            Welcome to Arts et Métiers
-                                        </li>
-                                    </ul>
-
-                                    Torolf Paulshus, President, European Organization for Quality<br>
-                                    <ul>
-                                        <li class="is-size-8">
-                                            What is EOQ strategy?
-                                        </li>
-                                    </ul>
-                                    Pierre Gattaz – President, MEDEF
-                                    <ul>
-                                        <li class="is-size-8">
-                                            Quality and operational excellence for CEO’s
-                                        </li>
-                                    </ul>
-
+                                <li class="is-size-8">
+                                    Welcome to Arts et Métiers
                                 </li>
                             </ul>
+
+                            <a href="{{ route('speakers', session('lang')) }}#torolfPaulshus" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                Torolf Paulshus
+                            </a>, President, European Organization for Quality<br>
+                            <ul>
+                                <li class="is-size-8">
+                                    What is EOQ strategy?
+                                </li>
+                            </ul>
+                            Pierre Gattaz – President, MEDEF
+                            <ul>
+                                <li class="is-size-8">
+                                    Quality and operational excellence for CEO’s
+                                </li>
+                            </ul>
+
                         </li>
                     </ul>
                 </li>
@@ -65,11 +60,11 @@
                         <li style="margin-bottom:10px;">
                             <strong>Session 1:</strong><br>
                             Practices and experience regarding Quality Management Systems<br>
-                            <small>What is our IMS experience and for which benefits ?</small>
                             <ul>
                                 <li class="is-size-7">
                                     Speaker : <br>
-                                    <a href="{{ route('speakers', session('lang')) }}#thomasPenner" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                    <a href="{{ route('speakers', session('lang')) }}#thomasPenner"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
                                         Thomas Penner
                                     </a>, Vice President Terminal + Passenger Services, Munich Airport
                                     <ul>
@@ -84,20 +79,16 @@
                         <li style="margin-bottom:10px;">
                             <strong>Session 2:</strong><br>
                             Practices and experience on operational excellence<br>
-                            <small>
-                                - Quality Management in Holdings - Objectives, Tasks, Management, Elements and Main Mechanisms<br>
-                                - What are practices with Lean approaches in srvices compagnies ?<br>
-                                - What is ROI on Lean Manufacturing in industry
-                            </small>
                             <ul>
                                 <li class="is-size-7">
                                     Speakers : <br>
 
-                                    Mrs Kastorskaya, Dr Vadim Lapidus, Mrs Tyileneva – Russia<br>
-                                    Yujia Huo, Jianjun Zhu, Nuclear Power Institute of China
+                                    Mrs Kastorskaya & Dr Vadim Lapidus & Mrs Tyileneva – Russia<br>
+                                    Yujia Huo & Jianjun Zhu, Nuclear Power Institute of China
                                     <ul>
                                         <li class="is-size-8">
-                                            Application and Discussion Of Visual Quality Control In Engineering Design Process
+                                            Application and Discussion Of Visual Quality Control In Engineering Design
+                                            Process
                                         </li>
                                     </ul>
                                 </li>
@@ -110,7 +101,8 @@
                             <ul>
                                 <li class="is-size-7">
                                     Speakers :<br>
-                                    Nina Kandler-Schmitt : Supply Chain Quality Management - Andrássy Universität Budapest, Hungary
+                                    Nina Kandler-Schmitt : Supply Chain Quality Management - Andrássy Universität
+                                    Budapest, Hungary
                                     <ul>
                                         <li class="is-size-8">
                                             Risk-oriented Supply Chain Quality Management
@@ -119,7 +111,8 @@
                                     Yuan Pan Nuclear Power Institute of China
                                     <ul>
                                         <li class="is-size-8">
-                                            Research on Zero Defect Management Method of Design Quality for CF Fuel Assembly
+                                            Research on Zero Defect Management Method of Design Quality for CF Fuel
+                                            Assembly
                                         </li>
                                     </ul>
                                 </li>
@@ -138,7 +131,9 @@
                                             L’Oréal strategy to become a leader in sustainability
                                         </li>
                                     </ul>
-                                    Dr. Markus Bürger, Chairman of the Board of Österreichisches Zentrum für Nachhaltigkeit and Ambassador for eccos22 - CSR Dialogue Forum, accredited and in consultative status of the United Nations
+                                    Dr. Markus Bürger, Chairman of the Board of Österreichisches Zentrum für
+                                    Nachhaltigkeit and Ambassador for eccos22 - CSR Dialogue Forum, accredited and in
+                                    consultative status of the United Nations
                                 </li>
                             </ul>
                         </li>
@@ -152,9 +147,11 @@
                                 </li>
                                 <li class="is-size-7">
                                     Speaker : <br>
-                                    <a href="{{ route('speakers', session('lang')) }}#moraneREYHUET" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                    <a href="{{ route('speakers', session('lang')) }}#moraneREYHUET"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
                                         Morane Rey-Huet
-                                    </a>, Founder & CEO at Meersens / Executive Vice President at Aldes (COMEX) - CEO International Division, Groupe ALDES
+                                    </a>, Founder & CEO at Meersens / Executive Vice President at Aldes (COMEX) - CEO
+                                    International Division, Groupe ALDES
                                     <ul>
                                         <li class="is-size-8">
                                             Quality an important asset of the brand
@@ -205,17 +202,18 @@
                         <li style="margin-bottom:10px;">
                             <strong>Session 1:</strong><br>
                             Added value of quality approaches<br>
-                            <small>
-                                - Which results of a business excellence approach in hospital ?<br>
-                                - How to demonstrate the added value of a quality approach ?<br>
-                            </small>
                             <ul>
                                 <li class="is-size-7">
                                     Speakers : <br>
-                                    Matthew Barsalou, Statistical Problem Resolution Master Black Belt, BorgWarner Turbo Systems Engineering GmbH <br>
-                                    <a href="{{ route('speakers', session('lang')) }}#erickPERRUCHE" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                    <a href="{{ route('speakers', session('lang')) }}#erickPERRUCHE"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
                                         Erick Perruche
                                     </a>, Conseiller du Commerce Extérieur, Business Excellence Advisor
+                                    <ul>
+                                        <li class="is-size-8">
+                                            Beyond the Quality Management System an Excellence as a pillar of added value to the future
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </li>
@@ -232,16 +230,32 @@
                         <li style="margin-bottom:10px;">
                             <strong>Session 3:</strong><br>
                             My EOQ (concept, products)<br>
-                            <small>
-                                - What is the concept of My EOQ ?<br>
-                                - EOQ products and services portfolio<br>
-                            </small>
                             <ul>
                                 <li class="is-size-7">
-                                    Speakers : <br>Torolf Paulshus, President, European Organisation for Quality - What is the concept of My EOQ ? EOQ strategy, main actions and portfolio<br>
-                                    <a href="{{ route('speakers', session('lang')) }}#thomasVostmeier" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                    Chairman : Patrick Mongillon – EOQ Vice President<br>
+                                    Speakers : <br>
+                                    <a href="{{ route('speakers', session('lang')) }}#torolfPaulshus" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Torolf Paulshus
+                                    </a>, President, European Organisation for Quality
+                                    <ul>
+                                        <li class="is-size-8">
+                                            What is the concept of My EOQ ?
+
+                                        </li>
+                                        <li class="is-size-8">
+                                            EOQ strategy, main actions and portfolio
+                                        </li>
+                                    </ul>
+
+                                    <a href="{{ route('speakers', session('lang')) }}#thomasVostmeier"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
                                         Thomas Vostmeier
-                                    </a> – Deutsche Gesellschaft für Qualität : EOQ engagement in conformity assessment, accreditation and personnel certification business
+                                    </a> – Deutsche Gesellschaft für Qualität
+                                    <ul>
+                                        <li class="is-size-8">
+                                            EOQ engagement in conformity assessment, accreditation and personnel certification business
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </li>
@@ -249,18 +263,33 @@
                         <li style="margin-bottom:10px;">
                             <strong>Session 4:</strong><br>
                             Actions and results : Thanks to digitalization and transformation !<br>
-                            <small>
-                                - Transformation in Delivering Quality Healthcare in the Digital Age<br>
-                                - How to integrate digitalization in business process management and what are the associated results ?<br>
-                                -How to use digitalization in user experience to obtain « waouh effect » ?<br>
-                            </small>
                             <ul>
                                 <li class="is-size-7">
                                     Speakers :<br>
-                                    Romain Denis, Vice President Regulatory Affairs and Quality Compliance US / EMEIA, Intuitive Surgical<br>
-                                    <a href="{{ route('speakers', session('lang')) }}#edVanSiclen" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                    Romain Denis, Vice President Regulatory Affairs and Quality Compliance US / EMEIA,
+                                    Intuitive Surgical
+                                    <ul>
+                                        <li class="is-size-8">
+                                            Transformation in Delivering Quality Healthcare in the Digital Age
+                                        </li>
+                                    </ul>
+
+                                    Christian Georges & Jean Larde – L’Oréal
+                                    <ul>
+                                        <li class="is-size-8">
+                                            L’Oréal operations digital transformation
+                                        </li>
+                                    </ul>
+
+                                    <a href="{{ route('speakers', session('lang')) }}#edVanSiclen"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
                                         Ed Van Siclen
                                     </a>, VP of Strategy, Veeva CPG & Chemicals.
+                                    <ul>
+                                        <li class="is-size-8">
+                                            “…The Future Arrived Yesterday: Quality’s Role in Digital Transformation”
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </li>
@@ -271,8 +300,27 @@
                             <ul>
                                 <li class="is-size-7">
                                     Speaker : <br>
-                                    Professeur Azat Abdrakhmanov, President at Kazakh Organization for Quality&Innovation Management - IAQMA Kazakhstan<br>
-                                    Liu Bin, Beijing Oriental Yuhong Waterproof Technology Co., Ltd - Building Global Oriental Yuhong with Quality and Brand
+                                    Professeur Azat Abdrakhmanov, President at Kazakh Organization for
+                                    Quality&Innovation Management - IAQMA Kazakhstan
+                                    <ul>
+                                        <li class="is-size-8">
+                                            Asian Model of Excellence in Performance in action
+                                        </li>
+                                    </ul>
+
+                                    Liu Bin, Beijing Oriental Yuhong Waterproof Technology Co., Ltd
+                                    <ul>
+                                        <li class="is-size-8">
+                                            Building Global Oriental Yuhong with Quality and Brand
+                                        </li>
+                                    </ul>
+
+                                    Lin Hai, China Association for Quality
+                                    <ul>
+                                        <li class="is-size-8">
+                                            Total Brand Management in China
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </li>
