@@ -100,8 +100,9 @@
                                 </li>
                                 <li class="is-size-7">
                                     Intervenants : <br>Manon Duclos, Conseillère Qualité, Mouvement Québécois de la Qualité<br>
-
-                                    Georgios Christodoulou, Head Technical Customer Service, Larnaca Customer Services, Cyprus Telecommunications (Cyta)<br>
+                                    <a href="{{ route('speakers', session('lang')) }}#georgiosChristodoulou" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Georgios Christodoulou
+                                    </a>, Head Technical Customer Service, Larnaca Customer Services, Cyprus Telecommunications (Cyta)<br>
 
                                     Brian Galli, School of Computer Science, Innovation, and Management Engineering Long Island University
 
