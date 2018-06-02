@@ -90,22 +90,29 @@
                             <strong>Session 3:</strong><br>
                             Les missions de leader qualité,
                             aujourd'hui et demain<br>
-                            <small>
-                                - Le responsable qualité, véritable stratège<br>
-                                - Comment imaginez-vous le leader qualité en 2030 ?
-                            </small>
                             <ul>
                                 <li class="is-size-7">
                                     Chairman : Georgios Christodoulou
                                 </li>
                                 <li class="is-size-7">
-                                    Intervenants : <br>Manon Duclos, Conseillère Qualité, Mouvement Québécois de la Qualité<br>
+                                    Intervenants : <br>
+                                    <a href="{{ route('speakers', session('lang')) }}#manonDuclos" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Manon Duclos
+                                    </a>, Conseillère Qualité, Mouvement Québécois de la Qualité
+                                    <ul>
+                                        <li class="is-size-8">
+                                            Quality manager as a strategist
+                                        </li>
+                                    </ul>
+
                                     <a href="{{ route('speakers', session('lang')) }}#georgiosChristodoulou" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
                                         Georgios Christodoulou
-                                    </a>, Head Technical Customer Service, Larnaca Customer Services, Cyprus Telecommunications (Cyta)<br>
-
-                                    Brian Galli, School of Computer Science, Innovation, and Management Engineering Long Island University
-
+                                    </a>, Head Technical Customer Service, Larnaca Customer Services, Cyprus Telecommunications (Cyta)
+                                    <ul>
+                                        <li class="is-size-8">
+                                            And what about the individual ?
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </li>
@@ -114,16 +121,18 @@
                             <strong>Session 4:</strong><br>
                             Place de qualité dans les programmes
                             d'enseignement<br>
-                            <small>
-                                - Quels changements apporter aux programmes de formation pour améliorer la place de la qualité ?<br>
-                                - Comment changer les pédagogies de formation en matière de qualité ?<br>
-                            </small>
                             <ul>
                                 <li class="is-size-7">
                                     Chairman : Hervé Cosnard
                                 </li>
                                 <li class="is-size-7">
-                                    Speaker : Hervé Cosnard, Academic Director<br>
+                                    Speaker :<br>
+                                    Hervé Cosnard, Academic Director
+                                    <ul>
+                                        <li class="is-size-8">
+                                            Is National Education a learning institution ?
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </li>
@@ -149,7 +158,9 @@
             Trophée du Leader Européen de la Qualité
             <ul>
                 <li class="is-size-7">
-                    Torolf Paulshus EOQ President and Dr Eric Janssens EOQ General Manager
+                    <a href="{{ route('speakers', session('lang')) }}#torolfPaulshus" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                        Torolf Paulshus
+                    </a> EOQ President and Dr Eric Janssens EOQ General Manager
                 </li>
             </ul>
         </td>
