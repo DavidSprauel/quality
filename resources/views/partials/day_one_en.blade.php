@@ -82,8 +82,24 @@
                             <ul>
                                 <li class="is-size-7">
                                     Speakers : <br>
+                                    <a href="{{ route('speakers', session('lang')) }}#lubovKastorskaya"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Mrs Kastorskaya
+                                    </a>&
+                                    <a href="{{ route('speakers', session('lang')) }}#dr.VadimLapidus"
+                                             style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Dr Vadim Lapidus
+                                    </a>&
+                                    <a href="{{ route('speakers', session('lang')) }}#galinaTiuleneva"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">Mrs Tyileneva
+                                    </a>– Russia<br>
+                                    <ul>
+                                        <li class="is-size-8">
+                                            Quality management in holdings – objectives, tasks, management elements and main mechanisms
+                                        </li>
+                                    </ul>
 
-                                    Mrs Kastorskaya & Dr Vadim Lapidus & Mrs Tyileneva – Russia<br>
+
                                     Yujia Huo & Jianjun Zhu, Nuclear Power Institute of China
                                     <ul>
                                         <li class="is-size-8">
@@ -125,15 +141,25 @@
                             <ul>
                                 <li class="is-size-7">
                                     Speakers :<br>
-                                    Frédéric Heinrich, Director of Operations, L’Oréal
+                                    <a href="{{ route('speakers', session('lang')) }}#frédéricHeinrich"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Frédéric Heinrich
+                                    </a>, Director of Operations, L’Oréal
                                     <ul>
                                         <li class="is-size-8">
                                             L’Oréal strategy to become a leader in sustainability
                                         </li>
                                     </ul>
-                                    Dr. Markus Bürger, Chairman of the Board of Österreichisches Zentrum für
-                                    Nachhaltigkeit and Ambassador for eccos22 - CSR Dialogue Forum, accredited and in
+                                    <a href="{{ route('speakers', session('lang')) }}#drMarkusBürger"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Dr. Markus Bürger
+                                    </a>, Chairman of the Board of the Austrian Center for Sustainability and Ambassador for eccos22 - CSR Dialogue Forum, accredited and in
                                     consultative status of the United Nations
+                                    <ul>
+                                        <li class="is-size-8">
+                                            Companies and Organizations as Important Drivers to Accomplish the Sustainable Development Goals of the United Nations – Accelerating Sustainable Development in Austria
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </li>
@@ -239,11 +265,10 @@
                                     </a>, President, European Organisation for Quality
                                     <ul>
                                         <li class="is-size-8">
-                                            What is the concept of My EOQ ?
-
+                                            The My EOQ Concept
                                         </li>
                                         <li class="is-size-8">
-                                            EOQ strategy, main actions and portfolio
+                                            EOQ strategy process and highlights
                                         </li>
                                     </ul>
 
@@ -274,7 +299,14 @@
                                         </li>
                                     </ul>
 
-                                    Christian Georges & Jean Larde – L’Oréal
+                                    <a href="{{ route('speakers', session('lang')) }}#christianGeorges"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Christian Georges
+                                    </a> &
+                                    <a href="{{ route('speakers', session('lang')) }}#jeanLardé"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Jean Larde
+                                    </a> – L’Oréal
                                     <ul>
                                         <li class="is-size-8">
                                             L’Oréal operations digital transformation

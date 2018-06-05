@@ -113,6 +113,16 @@
                                             And what about the individual ?
                                         </li>
                                     </ul>
+
+                                    <a href="{{ route('speakers', session('lang')) }}#georgiosChristodoulou" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Ömer Özkan
+                                    </a>, Management Systems Manager, Petkim Petrochemical Holding Corp. Mechanical Eng., MBA, PhD Candidate(Cyta)
+                                    <ul>
+                                        <li class="is-size-8">
+                                            The quality leader missions, today and tomorrow (V.U.C.A. World)
+
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </li>
@@ -123,11 +133,17 @@
                             d'enseignement<br>
                             <ul>
                                 <li class="is-size-7">
-                                    Chairman : Hervé Cosnard
+                                    Chairman :  <a href="{{ route('speakers', session('lang')) }}#hervéCosnard"
+                                                   style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Hervé Cosnard
+                                    </a>
                                 </li>
                                 <li class="is-size-7">
                                     Speaker :<br>
-                                    Hervé Cosnard, Academic Director
+                                    <a href="{{ route('speakers', session('lang')) }}#hervéCosnard"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Hervé Cosnard
+                                    </a>, Academic Director
                                     <ul>
                                         <li class="is-size-8">
                                             Is National Education a learning institution ?
