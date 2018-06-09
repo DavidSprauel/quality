@@ -41,4 +41,20 @@
             <p class="has-text-centered">{{ __('home.no_sponsor') }}</p>
         @endforelse
     @endif
+
+        <h1 class="title is-3 title-perso">
+            Partenaire Médias
+        </h1>
+
+        <div class="columns">
+            <div class="column has-text-centered">
+                <figure class="image is-128x128" style="margin: auto;">
+                    <div style=" height: 100px;">
+                        <a href="http://qualite-references.com" target="_blank" style="color: black;">
+                            <img src="{{ asset('images/sponsors/logo_quality.jpg') }}" alt="Placeholder image">
+                        </a>
+                    </div>
+                </figure>
+            </div>
+        </div>
 </div>
