@@ -7,7 +7,7 @@
     </thead>
     <tbody>
     <tr>
-        <td>9:00</td>
+        <td>8:30</td>
         <td>Welcome</td>
     </tr>
 
@@ -20,22 +20,31 @@
                     <ul>
                         <li class="is-size-7">
                             Speakers : <br>
-                            Laurent Champaney – General Manager, ENSAM<br>
+                            <a href="{{ route('speakers', session('lang')) }}#laurentChampaney"
+                               style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                Laurent Champaney
+                            </a>– General Manager, ENSAM<br>
                             <ul>
                                 <li class="is-size-8">
                                     Welcome to Arts et Métiers
                                 </li>
                             </ul>
 
-                            <a href="{{ route('speakers', session('lang')) }}#torolfPaulshus" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                            <a href="{{ route('speakers', session('lang')) }}#torolfPaulshus"
+                               style="display: inline; margin: 0 !important; padding: 0!important; color:red">
                                 Torolf Paulshus
                             </a>, President, European Organization for Quality<br>
                             <ul>
                                 <li class="is-size-8">
-                                    What is EOQ strategy?
+                                    The EOQ strategy in a Global perspective
                                 </li>
                             </ul>
-                            Pierre Gattaz – President, MEDEF
+
+                            <a href="{{ route('speakers', session('lang')) }}#pierreGattaz"
+                               style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                Pierre Gattaz
+                            </a>
+                            – President, MEDEF
                             <ul>
                                 <li class="is-size-8">
                                     Quality and operational excellence for CEO’s
@@ -50,7 +59,7 @@
     </tr>
 
     <tr>
-        <td>11:00</td>
+        <td>11:30</td>
         <td>
             <ul class="menu-list">
                 <li>
@@ -62,6 +71,10 @@
                             Practices and experience regarding Quality Management Systems<br>
                             <ul>
                                 <li class="is-size-7">
+                                    Chairman :  <a href="{{ route('speakers', session('lang')) }}#thomasPenner"
+                                                   style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Thomas Penner
+                                    </a>
                                     Speaker : <br>
                                     <a href="{{ route('speakers', session('lang')) }}#thomasPenner"
                                        style="display: inline; margin: 0 !important; padding: 0!important; color:red">
@@ -70,6 +83,13 @@
                                     <ul>
                                         <li class="is-size-8">
                                             How to create a new staff involvement and motivated people on quality
+                                        </li>
+                                    </ul>
+
+                                    Sylvie Rolland, Université Paris-Dauphine
+                                    <ul>
+                                        <li class="is-size-8">
+                                            Reiventing the quality function in the digital era
                                         </li>
                                     </ul>
                                 </li>
@@ -81,26 +101,40 @@
                             Practices and experience on operational excellence<br>
                             <ul>
                                 <li class="is-size-7">
+
+                                    Chairman :
+                                    <a href="{{ route('speakers', session('lang')) }}#ericWolff"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Eric Wolff
+                                    </a>, L’Oréal
                                     Speakers : <br>
                                     <a href="{{ route('speakers', session('lang')) }}#lubovKastorskaya"
                                        style="display: inline; margin: 0 !important; padding: 0!important; color:red">
                                         Mrs Kastorskaya
                                     </a>&
                                     <a href="{{ route('speakers', session('lang')) }}#dr.VadimLapidus"
-                                             style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
                                         Dr Vadim Lapidus
                                     </a>&
                                     <a href="{{ route('speakers', session('lang')) }}#galinaTiuleneva"
-                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">Mrs Tyileneva
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">Mrs
+                                        Tyileneva
                                     </a>– Russia<br>
                                     <ul>
                                         <li class="is-size-8">
-                                            Quality management in holdings – objectives, tasks, management elements and main mechanisms
+                                            Quality management in holdings – objectives, tasks, management elements and
+                                            main mechanisms
                                         </li>
                                     </ul>
 
 
-                                    Yujia Huo & Jianjun Zhu, Nuclear Power Institute of China
+                                    <a href="{{ route('speakers', session('lang')) }}hujiaHuo"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Yujia Huo
+                                    </a> & <a href="{{ route('speakers', session('lang')) }}jianjunZhu"
+                                              style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Jianjun Zhu
+                                    </a>, Nuclear Power Institute of China
                                     <ul>
                                         <li class="is-size-8">
                                             Application and Discussion Of Visual Quality Control In Engineering Design
@@ -116,15 +150,26 @@
                             Practices and experience on governance, risks and compliance<br>
                             <ul>
                                 <li class="is-size-7">
+                                    Chairman : <a href="{{ route('speakers', session('lang')) }}#thomasLejeune"
+                                                  style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Thomas Lejeune
+                                    </a>
                                     Speakers :<br>
-                                    Nina Kandler-Schmitt : Supply Chain Quality Management - Andrássy Universität
+                                    <a href="{{ route('speakers', session('lang')) }}#ninaKandlerSchmitt"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Nina Kandler-Schmitt
+                                    </a>: Supply Chain Quality Management - Andrássy Universität
                                     Budapest, Hungary
                                     <ul>
                                         <li class="is-size-8">
                                             Risk-oriented Supply Chain Quality Management
                                         </li>
                                     </ul>
-                                    Yuan Pan Nuclear Power Institute of China
+
+                                    <a href="{{ route('speakers', session('lang')) }}#yuanPan"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Yuan Pan
+                                    </a> Nuclear Power Institute of China
                                     <ul>
                                         <li class="is-size-8">
                                             Research on Zero Defect Management Method of Design Quality for CF Fuel
@@ -140,11 +185,19 @@
                             Practices and experience on CSR<br>
                             <ul>
                                 <li class="is-size-7">
+                                    Chairman : <a href="{{ route('speakers', session('lang')) }}#markAntoine"
+                                                  style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Mark Antoine
+                                    </a>
                                     Speakers :<br>
                                     <a href="{{ route('speakers', session('lang')) }}#frédéricHeinrich"
                                        style="display: inline; margin: 0 !important; padding: 0!important; color:red">
                                         Frédéric Heinrich
-                                    </a>, Director of Operations, L’Oréal
+                                    </a> &
+                                    <a href="{{ route('speakers', session('lang')) }}#laureMalherbe"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Laure Malherbe
+                                    </a> , Director of Operations, L’Oréal
                                     <ul>
                                         <li class="is-size-8">
                                             L’Oréal strategy to become a leader in sustainability
@@ -153,11 +206,14 @@
                                     <a href="{{ route('speakers', session('lang')) }}#drMarkusBürger"
                                        style="display: inline; margin: 0 !important; padding: 0!important; color:red">
                                         Dr. Markus Bürger
-                                    </a>, Chairman of the Board of the Austrian Center for Sustainability and Ambassador for eccos22 - CSR Dialogue Forum, accredited and in
+                                    </a>, Chairman of the Board of the Austrian Center for Sustainability and Ambassador
+                                    for eccos22 - CSR Dialogue Forum, accredited and in
                                     consultative status of the United Nations
                                     <ul>
                                         <li class="is-size-8">
-                                            Companies and Organizations as Important Drivers to Accomplish the Sustainable Development Goals of the United Nations – Accelerating Sustainable Development in Austria
+                                            Companies and Organizations as Important Drivers to Accomplish the
+                                            Sustainable Development Goals of the United Nations – Accelerating
+                                            Sustainable Development in Austria
                                         </li>
                                     </ul>
                                 </li>
@@ -169,7 +225,10 @@
                             Sino-Euro Quality Forum<br>
                             <ul>
                                 <li class="is-size-7">
-                                    Chairman : Morane Rey-Huet
+                                    Chairman : <a href="{{ route('speakers', session('lang')) }}#moraneREYHUET"
+                                                  style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Morane Rey-Huet
+                                    </a>
                                 </li>
                                 <li class="is-size-7">
                                     Speaker : <br>
@@ -191,7 +250,10 @@
                                         </li>
                                     </ul>
 
-                                    Ma Xingqing, Shandong Lingong Construction Machinery Co., Ltd
+                                    <a href="{{ route('speakers', session('lang')) }}#maXingqing"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Ma Xingqing
+                                    </a>, Shandong Lingong Construction Machinery Co., Ltd
                                     <ul>
                                         <li class="is-size-8">
                                             Practice on Implementing “ONE-TWO-THREE” Innovation Management
@@ -208,7 +270,7 @@
     </tr>
 
     <tr>
-        <td>12:45</td>
+        <td>13:00</td>
         <td>Lunch</td>
     </tr>
 
@@ -230,6 +292,10 @@
                             Added value of quality approaches<br>
                             <ul>
                                 <li class="is-size-7">
+                                    Chairman : <a href="{{ route('speakers', session('lang')) }}#markAntoine"
+                                                  style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Mark Antoine
+                                    </a><br>
                                     Speakers : <br>
                                     <a href="{{ route('speakers', session('lang')) }}#erickPERRUCHE"
                                        style="display: inline; margin: 0 !important; padding: 0!important; color:red">
@@ -237,7 +303,26 @@
                                     </a>, Conseiller du Commerce Extérieur, Business Excellence Advisor
                                     <ul>
                                         <li class="is-size-8">
-                                            Beyond the Quality Management System an Excellence as a pillar of added value to the future
+                                            Beyond the Quality Management System an Excellence as a pillar of added
+                                            value to the future
+                                        </li>
+                                    </ul>
+                                    <a href="{{ route('speakers', session('lang')) }}#alexandreGontcharov"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Alexandre Gontcharov
+                                    </a>, Raise
+                                    <ul>
+                                        <li class="is-size-8">
+                                            Investment with Quality
+                                        </li>
+                                    </ul>
+                                    <a href="{{ route('speakers', session('lang')) }}#alexandreGontcharov"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Hervé Fauve
+                                    </a>, Total
+                                    <ul>
+                                        <li class="is-size-8">
+                                            Data crunching and costumers feedback
                                         </li>
                                     </ul>
                                 </li>
@@ -246,39 +331,35 @@
 
                         <li style="margin-bottom:10px;">
                             <strong>Session 2:</strong><br>
-                            Results on creativity and innovation<br>
-                            <small>
-                                - How to implement design thinking ?<br>
-                                - What are the main tools of creativity ?<br>
-                            </small>
-                        </li>
-
-                        <li style="margin-bottom:10px;">
-                            <strong>Session 3:</strong><br>
                             My EOQ (concept, products)<br>
                             <ul>
                                 <li class="is-size-7">
-                                    Chairman : Patrick Mongillon – EOQ Vice President<br>
+                                    Chairman : <a href="{{ route('speakers', session('lang')) }}#patrickMongillon"
+                                                  style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Patrick Mongillon
+                                    </a>– EOQ Vice President<br>
                                     Speakers : <br>
-                                    <a href="{{ route('speakers', session('lang')) }}#torolfPaulshus" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                    <a href="{{ route('speakers', session('lang')) }}#torolfPaulshus"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
                                         Torolf Paulshus
                                     </a>, President, European Organisation for Quality
                                     <ul>
                                         <li class="is-size-8">
-                                            The My EOQ Concept
+                                            What is the concept of My EOQ
                                         </li>
                                         <li class="is-size-8">
-                                            EOQ strategy process and highlights
+                                            EOQ strategy, main actions and portfolio
                                         </li>
                                     </ul>
 
-                                    <a href="{{ route('speakers', session('lang')) }}#thomasVostmeier"
+                                    <a href="{{ route('speakers', session('lang')) }}#thomasVotsmeier"
                                        style="display: inline; margin: 0 !important; padding: 0!important; color:red">
-                                        Thomas Vostmeier
+                                        Thomas Votsmeier
                                     </a> – Deutsche Gesellschaft für Qualität
                                     <ul>
                                         <li class="is-size-8">
-                                            EOQ engagement in conformity assessment, accreditation and personnel certification business
+                                            EOQ engagement in conformity assessment, accreditation and personnel
+                                            certification business
                                         </li>
                                     </ul>
                                 </li>
@@ -286,12 +367,19 @@
                         </li>
 
                         <li style="margin-bottom:10px;">
-                            <strong>Session 4:</strong><br>
+                            <strong>Session 3:</strong><br>
                             Actions and results : Thanks to digitalization and transformation !<br>
                             <ul>
                                 <li class="is-size-7">
+                                    Chairman : <a href="{{ route('speakers', session('lang')) }}#edVanSiclen"
+                                                  style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Ed Van Siclen
+                                    </a>
                                     Speakers :<br>
-                                    Romain Denis, Vice President Regulatory Affairs and Quality Compliance US / EMEIA,
+                                    <a href="{{ route('speakers', session('lang')) }}#romainDenis"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Romain Denis
+                                    </a>, Vice President Regulatory Affairs and Quality Compliance US / EMEIA,
                                     Intuitive Surgical
                                     <ul>
                                         <li class="is-size-8">
@@ -327,12 +415,15 @@
                         </li>
 
                         <li style="margin-bottom:10px;">
-                            <strong>Session 5:</strong><br>
+                            <strong>Session 4:</strong><br>
                             Sino-Euro Quality Forum<br>
                             <ul>
                                 <li class="is-size-7">
                                     Speaker : <br>
-                                    Professeur Azat Abdrakhmanov, President at Kazakh Organization for
+                                    <a href="{{ route('speakers', session('lang')) }}#azatAbdrakhmanov"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Professeur Azat Abdrakhmanov
+                                    </a>, President at Kazakh Organization for
                                     Quality&Innovation Management - IAQMA Kazakhstan
                                     <ul>
                                         <li class="is-size-8">
@@ -340,14 +431,20 @@
                                         </li>
                                     </ul>
 
-                                    Liu Bin, Beijing Oriental Yuhong Waterproof Technology Co., Ltd
+                                    <a href="{{ route('speakers', session('lang')) }}#liuBin"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Liu Bin
+                                    </a>, Beijing Oriental Yuhong Waterproof Technology Co., Ltd
                                     <ul>
                                         <li class="is-size-8">
                                             Building Global Oriental Yuhong with Quality and Brand
                                         </li>
                                     </ul>
 
-                                    Lin Hai, China Association for Quality
+                                    <a href="{{ route('speakers', session('lang')) }}#linHai"
+                                       style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Lin Hai
+                                    </a>, China Association for Quality
                                     <ul>
                                         <li class="is-size-8">
                                             Total Brand Management in China
@@ -364,7 +461,7 @@
     </tr>
 
     <tr>
-        <td>16:30</td>
+        <td>17:00</td>
         <td>Morning and afternoon sessions synthesis</td>
     </tr>
 
@@ -382,7 +479,12 @@
     </tr>
 
     <tr>
-        <td>20:15</td>
+        <td>18:30</td>
+        <td>Departure to Gala Dinner</td>
+    </tr>
+
+    <tr>
+        <td>19:15</td>
         <td>Gala Dinner at Yellow Door Cottage</td>
     </tr>
 

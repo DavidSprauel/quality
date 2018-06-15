@@ -37,11 +37,9 @@
         <td>
             <ul class="menu-list">
                 <li>
-                    <strong>Game : 5 functions, 5 countries, 5 expectations </strong><br>
+                    <strong>Exchange and sharing of vision on the quality leader</strong><br>
                     <small>(5 directors in charge of 5 different functions, who come from 5 different countries)</small>
                     <ul>
-                        <li>5 different functions/responsabilities : Sales,
-                            Marketing, Production, HR, Finance</li>
                         <li>
                             Questions and answers : what are expectations
                             towards quality leader ?<br>
@@ -50,7 +48,19 @@
                     </ul>
                     <ul>
                         <li class="is-size-7">
-                            Speaker : Wojciek Kowalik, Operations Director Eastern Europe Zone, L'Oréal
+                            Speaker :<br>
+                            <a href="{{ route('speakers', session('lang')) }}#wojciekKowalik" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                Wojciek Kowalik
+                            </a>, Operations Director Eastern Europe Zone, L'Oréal
+                            <a href="{{ route('speakers', session('lang')) }}#isabelleFourmentin" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                Isabelle Fourmentin
+                            </a>, Dir Branche Decaux Airport Europe (marketing and sales)
+                            <a href="{{ route('speakers', session('lang')) }}#pierreGirault" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                Pierre Girault
+                            </a>– Air France
+                            <a href="{{ route('speakers', session('lang')) }}#rodolpheCivet" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                Rodolphe Civet
+                            </a>
                         </li>
                     </ul>
                 </li>
@@ -59,7 +69,7 @@
     </tr>
 
     <tr>
-        <td>11:00</td>
+        <td>11:30</td>
         <td>
             <ul class="menu-list">
                 <li>
@@ -68,20 +78,65 @@
                     <ul>
                         <li style="margin-bottom:10px;">
                             <strong>Session 1:</strong><br>
-                            Simplification driven by the quality leader<br>
-                            <small>
-                                - How quality leaders drive transformation and simplification ?<br>
-                                - What are priorities of quality leader in order to simplify processes in companies ?
-                            </small>
+                            Transformation driven by the quality leader<br>
+                            Chairman :  <a href="{{ route('speakers', session('lang')) }}#christianMayeur" style="display: inline; margin: 0 !important; padding: 0!important; color:red">Christian Mayeur</a>
+                            <br>
+                            Speakers :<br>
+                            <a href="{{ route('speakers', session('lang')) }}#astridUlrich" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                Astrid Ulrich
+                            </a>, Air France Industrie
+                            <ul>
+                                <li class="is-size-8">
+                                    Lean 2020
+                                </li>
+                            </ul>
+
+                            <a href="{{ route('speakers', session('lang')) }}#christianMayeur" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                Christian Mayeur
+                            </a>, AFNOR
+                            <ul>
+                                <li class="is-size-8">
+                                    Service excellence and costumer enchantment
+                                </li>
+                            </ul>
+
+                            <a href="{{ route('speakers', session('lang')) }}#frédéricLoberman" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                Frédéric Loberman
+                            </a>, Orange
+                            <ul>
+                                <li class="is-size-8">
+                                    Transformation by costumers experience
+                                </li>
+                            </ul>
+
                         </li>
 
                         <li style="margin-bottom:10px;">
                             <strong>Session 2:</strong><br>
-                            Development and certification of skills, recognition and professionalization<br>
-                            <small>
-                                - Which new skills for a quality leader ?<br>
-                                - How to improve the « value » of the quality leader ?
-                            </small>
+                            Learning organization<br>
+                            Chairman :  Nicolas Maranzana, ENSAM
+                            <br>
+                            Speakers :<br>
+                            <a href="{{ route('speakers', session('lang')) }}#hervéCosnard" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                Hervé Cosnard
+                            </a>, Academic Director
+                            <ul>
+                                <li class="is-size-8">
+                                    Is National Education a learning institution ?
+                                </li>
+                            </ul>
+
+                            <a href="{{ route('speakers', session('lang')) }}#audreyChavas" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                Audrey Chavas
+                            </a> &
+                            <a href="{{ route('speakers', session('lang')) }}#pierreAntoineWatrelot" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                Pierre-Antoine Watrelot
+                            </a>
+                            <ul>
+                                <li class="is-size-8">
+                                    Human factors – how to lead innovation ? – SR-Management
+                                </li>
+                            </ul>
                         </li>
 
                         <li style="margin-bottom:10px;">
@@ -156,25 +211,32 @@
     </tr>
 
     <tr>
-        <td>12:45</td>
+        <td>13:00</td>
         <td>Lunch</td>
     </tr>
 
     <tr>
-        <td>14:00</td>
-        <td>Organized networking</td>
+        <td>14:15</td>
+        <td>Free networking</td>
     </tr>
 
     <tr>
-        <td>14:45</td>
+        <td>15:00</td>
         <td>
             European Quality Leader Award
             <ul>
                 <li class="is-size-7">
+                    European Quality Leader
                     <a href="{{ route('speakers', session('lang')) }}#torolfPaulshus" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
                         Torolf Paulshus
                     </a>
                     EOQ President and Dr Eric Janssens EOQ General Manager
+                </li>
+                <li>
+                    « EQL Favorite of Paris » (France Qualité) –
+                    <a href="{{ route('speakers', session('lang')) }}#pierreGirault" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                        Pierre Girault
+                    </a>– France Qualité Président
                 </li>
             </ul>
         </td>
@@ -191,7 +253,10 @@
             Conclusion of the two days and link with EOQ
             <ul>
                 <li class="is-size-7">
-                    Dr Eric Janssens EOQ General Manager
+                    Promotion of next EOQ Congress 2019
+                </li>
+                <li class="is-size-7">
+                    APQ – Portuguese Association for Quality
                 </li>
             </ul>
         </td>
