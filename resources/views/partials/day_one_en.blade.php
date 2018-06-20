@@ -40,14 +40,10 @@
                                 </li>
                             </ul>
 
-                            <a href="{{ route('speakers', session('lang')) }}#pierreGattaz"
-                               style="display: inline; margin: 0 !important; padding: 0!important; color:red">
-                                Pierre Gattaz
-                            </a>
-                            – President, MEDEF
+                            Philippe Guénault, Sales Deputy Head and General Manager/CEO France, and Eric Roovers Director Business and IT Transformation, Software AG
                             <ul>
                                 <li class="is-size-8">
-                                    Quality and operational excellence for CEO’s
+                                    Innovation, Digitalization and Quality
                                 </li>
                             </ul>
 
@@ -92,6 +88,8 @@
                                             Reiventing the quality function in the digital era
                                         </li>
                                     </ul>
+                                    Brigitte Bailhe<br>
+                                    Michel Raquin
                                 </li>
                             </ul>
                         </li>
@@ -150,10 +148,7 @@
                             Practices and experience on governance, risks and compliance<br>
                             <ul>
                                 <li class="is-size-7">
-                                    Chairman : <a href="{{ route('speakers', session('lang')) }}#thomasLejeune"
-                                                  style="display: inline; margin: 0 !important; padding: 0!important; color:red">
-                                        Thomas Lejeune
-                                    </a>
+                                    Chairman : Agnès Deldicque, President, AFQP Hauts de France<br>
                                     Speakers :<br>
                                     <a href="{{ route('speakers', session('lang')) }}#ninaKandlerSchmitt"
                                        style="display: inline; margin: 0 !important; padding: 0!important; color:red">
@@ -176,6 +171,13 @@
                                             Assembly
                                         </li>
                                     </ul>
+
+                                    Noureddine Hommani, Responsible of the “Air France BCP” (Business Continuity Plan)
+                                    <ul>
+                                        <li class="is-size-8">
+                                            The risks which threaten your project and how to avoid them
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </li>
@@ -187,7 +189,7 @@
                                 <li class="is-size-7">
                                     Chairman : <a href="{{ route('speakers', session('lang')) }}#markAntoine"
                                                   style="display: inline; margin: 0 !important; padding: 0!important; color:red">
-                                        Mark Antoine
+                                        Mark Antoine, Master of Ceremony
                                     </a>
                                     Speakers :<br>
                                     <a href="{{ route('speakers', session('lang')) }}#frédéricHeinrich"
@@ -294,7 +296,7 @@
                                 <li class="is-size-7">
                                     Chairman : <a href="{{ route('speakers', session('lang')) }}#markAntoine"
                                                   style="display: inline; margin: 0 !important; padding: 0!important; color:red">
-                                        Mark Antoine
+                                        Mark Antoine, Master of Ceremony
                                     </a><br>
                                     Speakers : <br>
                                     <a href="{{ route('speakers', session('lang')) }}#erickPERRUCHE"
@@ -458,6 +460,11 @@
                 </li>
             </ul>
         </td>
+    </tr>
+
+    <tr>
+        <td>16:15</td>
+        <td>Break</td>
     </tr>
 
     <tr>

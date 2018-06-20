@@ -55,12 +55,6 @@
                             <a href="{{ route('speakers', session('lang')) }}#isabelleFourmentin" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
                                 Isabelle Fourmentin
                             </a>, Dir Branche Decaux Airport Europe (marketing and sales)
-                            <a href="{{ route('speakers', session('lang')) }}#pierreGirault" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
-                                Pierre Girault
-                            </a>– Air France
-                            <a href="{{ route('speakers', session('lang')) }}#rodolpheCivet" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
-                                Rodolphe Civet
-                            </a>
                         </li>
                     </ul>
                 </li>
@@ -134,7 +128,7 @@
                             </a>
                             <ul>
                                 <li class="is-size-8">
-                                    Human factors – how to lead innovation ? – SR-Management
+                                    Human factors – how to lead innovation ? – SRM – Safety & Resource Management
                                 </li>
                             </ul>
                         </li>
@@ -213,11 +207,6 @@
     <tr>
         <td>13:00</td>
         <td>Lunch</td>
-    </tr>
-
-    <tr>
-        <td>14:15</td>
-        <td>Free networking</td>
     </tr>
 
     <tr>
