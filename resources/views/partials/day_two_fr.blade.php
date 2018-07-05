@@ -37,11 +37,9 @@
         <td>
             <ul class="menu-list">
                 <li>
-                    <strong>Jeu : 5 fonctions, 5 pays, 5 attentes </strong><br>
+                    <strong>Exchange and sharing of vision on the quality leader</strong><br>
                     <small>(5 directeurs en charge de 5 fonctions différentes, venant de 5 pays différents)</small>
                     <ul>
-                        <li>5 fonctions/responsabilités différentes : ventes,
-                            Marketing, Production, RH, Finance</li>
                         <li>
                             Questions/réponses : qu’attendent-ils d’un
                             responsable Qualité ? <br>
@@ -52,14 +50,19 @@
             </ul>
             <ul>
                 <li class="is-size-7">
-                    Intervenant : Wojciek Kowalik, Operations Director Eastern Europe Zone, L'Oréal
+                    Intervenant :<br>  <a href="{{ route('speakers', session('lang')) }}#wojciekKowalik" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                        Wojciek Kowalik
+                    </a>, Operations Director Eastern Europe Zone, L'Oréal
+                    <a href="{{ route('speakers', session('lang')) }}#isabelleFourmentin" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                        Isabelle Fourmentin
+                    </a>, Dir Branche Decaux Airport Europe (marketing and sales)
                 </li>
             </ul>
         </td>
     </tr>
 
     <tr>
-        <td>11:00</td>
+        <td>11:30</td>
         <td>
             <ul class="menu-list">
                 <li>
@@ -68,22 +71,64 @@
                     <ul>
                         <li style="margin-bottom:10px;">
                             <strong>Session 1:</strong><br>
-                            La simplification pilotée par le
-                            responsable qualité<br>
-                            <small>
-                                - Comment il conduit la transformation et la simplification ?<br>
-                                - Quelles priorités pour simplifier les processus dans les entreprises ?
-                            </small>
+                            Transformation driven by the quality leader<br>
+                            Chairman : <a href="{{ route('speakers', session('lang')) }}#christianMayeur" style="display: inline; margin: 0 !important; padding: 0!important; color:red">Christian Mayeur</a>
+                            <br>
+                            Speakers :<br>
+                            <a href="{{ route('speakers', session('lang')) }}#astridUlrich" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                Astrid Ulrich
+                            </a>, Air France Industrie
+                            <ul>
+                                <li class="is-size-8">
+                                    Lean 2020
+                                </li>
+                            </ul>
+
+                            <a href="{{ route('speakers', session('lang')) }}#christianMayeur" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                Christian Mayeur
+                            </a>, AFNOR
+                            <ul>
+                                <li class="is-size-8">
+                                    Service excellence and costumer enchantment
+                                </li>
+                            </ul>
+
+                            <a href="{{ route('speakers', session('lang')) }}#frédéricLoberman" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                Frédéric Loberman
+                            </a>, Orange
+                            <ul>
+                                <li class="is-size-8">
+                                    Transformation by costumers experience
+                                </li>
+                            </ul>
                         </li>
 
                         <li style="margin-bottom:10px;">
                             <strong>Session 2:</strong><br>
-                            Développement et certification des
-                            compétences, reconnaissance et professionnalisation<br>
-                            <small>
-                                - Quelles nouvelles compétences d’un responsable qualité ?<br>
-                                - Comment améliorer la «valeur» du responsable qualité ?
-                            </small>
+                            Learning organization<br>
+                            Chairman :  Nicolas Maranzana, ENSAM
+                            <br>
+                            Speakers :<br>
+                            <a href="{{ route('speakers', session('lang')) }}#hervéCosnard" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                Hervé Cosnard
+                            </a>, Academic Director
+                            <ul>
+                                <li class="is-size-8">
+                                    Is National Education a learning institution ?
+                                </li>
+                            </ul>
+
+                            <a href="{{ route('speakers', session('lang')) }}#audreyChavas" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                Audrey Chavas
+                            </a> &
+                            <a href="{{ route('speakers', session('lang')) }}#pierreAntoineWatrelot" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                Pierre-Antoine Watrelot
+                            </a>
+                            <ul>
+                                <li class="is-size-8">
+                                    Human factors – how to lead innovation ? – SRM – Safety & Resource Management
+                                </li>
+                            </ul>
                         </li>
 
                         <li style="margin-bottom:10px;">
@@ -159,24 +204,26 @@
     </tr>
 
     <tr>
-        <td>12:45</td>
+        <td>13:00</td>
         <td>Déjeuner</td>
     </tr>
 
     <tr>
-        <td>14:00</td>
-        <td>Networking animé</td>
-    </tr>
-
-    <tr>
-        <td>14:45</td>
+        <td>15:00</td>
         <td>
             Trophée du Leader Européen de la Qualité
             <ul>
                 <li class="is-size-7">
+                    European Quality Leader
                     <a href="{{ route('speakers', session('lang')) }}#torolfPaulshus" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
                         Torolf Paulshus
                     </a> EOQ President and Dr Eric Janssens EOQ General Manager
+                </li>
+                <li>
+                    « EQL Favorite of Paris » (France Qualité) –
+                    <a href="{{ route('speakers', session('lang')) }}#pierreGirault" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                        Pierre Girault
+                    </a>– France Qualité Président
                 </li>
             </ul>
         </td>
@@ -193,7 +240,10 @@
             Conclusion des deux jours et mot de la fin par l’EOQ
             <ul>
                 <li class="is-size-7">
-                    Dr Eric Janssens EOQ General Manager
+                    Promotion of next EOQ Congress 2019
+                </li>
+                <li class="is-size-7">
+                    APQ – Portuguese Association for Quality
                 </li>
             </ul>
         </td>
