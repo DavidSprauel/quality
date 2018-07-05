@@ -73,62 +73,69 @@
                         <li style="margin-bottom:10px;">
                             <strong>Session 1:</strong><br>
                             Transformation driven by the quality leader<br>
-                            Chairman :  <a href="{{ route('speakers', session('lang')) }}#christianMayeur" style="display: inline; margin: 0 !important; padding: 0!important; color:red">Christian Mayeur</a>
-                            <br>
-                            Speakers :<br>
-                            <a href="{{ route('speakers', session('lang')) }}#astridUlrich" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
-                                Astrid Ulrich
-                            </a>, Air France Industrie
                             <ul>
-                                <li class="is-size-8">
-                                    Lean 2020
+                                <li class="is-size-7">
+                                    Chairman :  <a href="{{ route('speakers', session('lang')) }}#christianMayeur" style="display: inline; margin: 0 !important; padding: 0!important; color:red">Christian Mayeur</a>
+                                    <br>
+                                    Speakers :<br>
+                                    <a href="{{ route('speakers', session('lang')) }}#astridUlrich" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Astrid Ulrich
+                                    </a>, Air France Industrie
+                                    <ul>
+                                        <li class="is-size-8">
+                                            Lean 2020
+                                        </li>
+                                    </ul>
+
+                                    <a href="{{ route('speakers', session('lang')) }}#christianMayeur" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Christian Mayeur
+                                    </a>, AFNOR
+                                    <ul>
+                                        <li class="is-size-8">
+                                            Service excellence and costumer enchantment
+                                        </li>
+                                    </ul>
+
+                                    <a href="{{ route('speakers', session('lang')) }}#frédéricLoberman" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Frédéric Loberman
+                                    </a>, Orange
+                                    <ul>
+                                        <li class="is-size-8">
+                                            Transformation by costumers experience
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
-
-                            <a href="{{ route('speakers', session('lang')) }}#christianMayeur" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
-                                Christian Mayeur
-                            </a>, AFNOR
-                            <ul>
-                                <li class="is-size-8">
-                                    Service excellence and costumer enchantment
-                                </li>
-                            </ul>
-
-                            <a href="{{ route('speakers', session('lang')) }}#frédéricLoberman" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
-                                Frédéric Loberman
-                            </a>, Orange
-                            <ul>
-                                <li class="is-size-8">
-                                    Transformation by costumers experience
-                                </li>
-                            </ul>
-
                         </li>
 
                         <li style="margin-bottom:10px;">
                             <strong>Session 2:</strong><br>
                             Learning organization<br>
-                            Chairman :  Nicolas Maranzana, ENSAM
-                            <br>
-                            Speakers :<br>
-                            <a href="{{ route('speakers', session('lang')) }}#hervéCosnard" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
-                                Hervé Cosnard
-                            </a>, Academic Director
                             <ul>
-                                <li class="is-size-8">
-                                    Is National Education a learning institution ?
-                                </li>
-                            </ul>
+                                <li class="is-size-7">
+                                    Chairman :  Nicolas Maranzana, ENSAM
+                                    <br>
+                                    Speakers :<br>
+                                    <a href="{{ route('speakers', session('lang')) }}#hervéCosnard" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Hervé Cosnard
+                                    </a>, Academic Director
+                                    <ul>
+                                        <li class="is-size-8">
+                                            Is National Education a learning institution ?
+                                        </li>
+                                    </ul>
 
-                            <a href="{{ route('speakers', session('lang')) }}#audreyChavas" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
-                                Audrey Chavas
-                            </a> &
-                            <a href="{{ route('speakers', session('lang')) }}#pierreAntoineWatrelot" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
-                                Pierre-Antoine Watrelot
-                            </a>
-                            <ul>
-                                <li class="is-size-8">
-                                    Human factors – how to lead innovation ? – SRM – Safety & Resource Management
+                                    <a href="{{ route('speakers', session('lang')) }}#audreyChavas" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Audrey Chavas
+                                    </a> &
+                                    <a href="{{ route('speakers', session('lang')) }}#pierreAntoineWatrelot" style="display: inline; margin: 0 !important; padding: 0!important; color:red">
+                                        Pierre-Antoine Watrelot
+                                    </a>
+                                    <ul>
+                                        <li class="is-size-8">
+                                            Human factors – how to lead innovation ? – SRM – Safety & Resource Management
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </li>

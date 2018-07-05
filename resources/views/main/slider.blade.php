@@ -4,7 +4,6 @@
             <div class='carousel-item' id="countdown">
                 <div>
                     <img class="is-background" src="{{ asset('images/slide2.jpg') }}">
-                    <p>Congress in <br>{{ __('home.countdown') }}</p>
                 </div>
                 <div class="title">
                     <a href="{{ route('program', session('locale')) }}">{{ __('home.visit') }}</a>

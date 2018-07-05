@@ -15,16 +15,9 @@
                 </p>
             </section>
 
-            <section class="columns">
-                @if(session('lang') == 'fr')
-                    @php $link = 'https://www.weezevent.com/congressafqpeoq2018?lg_billetterie=1&id_evenement=296489'; @endphp
-                @else
-                    @php $link = 'https://www.weezevent.com/congressafqpeoq2018?lg_billetterie=1&id_evenement=296489'; @endphp
-                @endif
-                <a href="{{ $link }}" target="_blank"
-                   style="height: 300px; width: 100%; margin-top: 20px;margin-bottom: 20px; background: url({{ asset('images/home_'.session('lang').'.jpg') }}) no-repeat center"
-                ></a>
-            </section>
+            <figure style="margin: 15px 0">
+                <img src="{{ asset('images/banner.jpg') }}" alt="">
+            </figure>
 
             <div class="columns">
                 <section class="is-8 column">
